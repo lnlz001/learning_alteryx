@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tree_Survey_2016.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tree ID" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Planting Date" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Height (m)" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Health" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="spc_latin" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="spc_common" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Borough Code" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tree_Survey_2017.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Latitude" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Planting Date" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="Tree ID" size="255" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Height (m)" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Status" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Bool" />
+            <Field name="Health" size="255" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Latin Name" size="255" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Common Name" size="255" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Borough Code" size="255" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2018.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tree_Survey_2018.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Tree ID" size="254" source="Formula: if Length([Tree ID]) &lt; 6 then PadLeft([Tree ID], 6, &quot;0&quot;) else [Tree ID] endif" type="V_String" />
+            <Field name="Planting Date" source="Formula: REGEX_Replace([Planting Date], &quot;\d{4}&quot;, &quot;2018&quot;)" type="Date" />
+            <Field name="Height (m)" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="Int16" />
+            <Field name="Status" source="Formula: if [Status] = &quot;Alive&quot; then 1 else 0 endif" type="Bool" />
+            <Field name="Health" size="254" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="V_String" />
+            <Field name="Latin Name" size="254" source="Formula: Uppercase([spc_latin])" type="V_WString" />
+            <Field name="Common Name" size="254" source="Formula: Uppercase([spc_common])" type="V_WString" />
+            <Field name="Borough Code" size="254" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="V_WString" />
+            <Field name="Latitude" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="Double" />
+            <Field name="Longitude" source="File: C:\Users\cbonthius\Desktop\GSRV\new_york_tree_census_2015.csv" type="Double" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=Longitude y=Latitude" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="366" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="spc_latin" selected="True" rename="Latin Name" />
+            <SelectField field="spc_common" selected="True" rename="Common Name" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>week1_learning</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
