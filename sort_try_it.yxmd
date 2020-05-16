@@ -1,0 +1,1755 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="391" y="1002" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="91" y="954" width="288" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort by name ascending and date descending</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="798" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="91" y="750" width="288" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort so most recent JoinDate is at top</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="91" y="138" width="288" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort values ascending - do not touch the select tool</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="186" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="103" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Values" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>10</c>
+            </r>
+            <r>
+              <c>100</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>20</c>
+            </r>
+            <r>
+              <c>200</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="199" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Values" selected="True" type="V_String" size="3" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="415" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Values" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>10</c>
+            </r>
+            <r>
+              <c>100</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>20</c>
+            </r>
+            <r>
+              <c>200</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="91" y="342" width="288" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort values ascending (using dictionary order) - do not touch the select tool</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="390" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="103" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Values" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>10</c>
+            </r>
+            <r>
+              <c>100</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>20</c>
+            </r>
+            <r>
+              <c>200</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="199" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Values" selected="True" type="V_String" size="3" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="415" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Values" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>10</c>
+            </r>
+            <r>
+              <c>20</c>
+            </r>
+            <r>
+              <c>100</c>
+            </r>
+            <r>
+              <c>200</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="91" y="546" width="288" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Sort values ascending ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="594" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="103" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Values" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>10</c>
+            </r>
+            <r>
+              <c>100</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>20</c>
+            </r>
+            <r>
+              <c>200</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="415" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Values" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>10</c>
+            </r>
+            <r>
+              <c>20</c>
+            </r>
+            <r>
+              <c>100</c>
+            </r>
+            <r>
+              <c>200</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="102" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="FirstName" />
+            <Field name="LastName" />
+            <Field name="Gender" />
+            <Field name="JoinDate" />
+          </Fields>
+          <Data>
+            <r>
+              <c>49</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+              <c>M</c>
+              <c>2014-08-21</c>
+            </r>
+            <r>
+              <c>456</c>
+              <c>Galileo</c>
+              <c />
+              <c>M</c>
+              <c>2014-04-01</c>
+            </r>
+            <r>
+              <c>31</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+              <c>M</c>
+              <c>2014-12-21</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>Dorothy</c>
+              <c>Gerber</c>
+              <c>F</c>
+              <c>2014-10-01</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>Louis</c>
+              <c>Pasteur</c>
+              <c>M</c>
+              <c>2013-09-06</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+              <c>M</c>
+              <c>2014-01-26</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="414" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="FirstName" />
+            <Field name="LastName" />
+            <Field name="Gender" />
+            <Field name="JoinDate" />
+          </Fields>
+          <Data>
+            <r>
+              <c>31</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+              <c>M</c>
+              <c>2014-12-21</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>Dorothy</c>
+              <c>Gerber</c>
+              <c>F</c>
+              <c>2014-10-01</c>
+            </r>
+            <r>
+              <c>49</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+              <c>M</c>
+              <c>2014-08-21</c>
+            </r>
+            <r>
+              <c>456</c>
+              <c>Galileo</c>
+              <c />
+              <c>M</c>
+              <c>2014-04-01</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+              <c>M</c>
+              <c>2014-01-26</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>Louis</c>
+              <c>Pasteur</c>
+              <c>M</c>
+              <c>2013-09-06</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="102" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="FirstName" />
+            <Field name="LastName" />
+            <Field name="JoinDate" />
+          </Fields>
+          <Data>
+            <r>
+              <c>49</c>
+              <c>Joe</c>
+              <c>Miller</c>
+              <c>2014-08-21</c>
+            </r>
+            <r>
+              <c>456</c>
+              <c>Joe</c>
+              <c>Miller</c>
+              <c>2014-04-01</c>
+            </r>
+            <r>
+              <c>31</c>
+              <c>Christine</c>
+              <c>Bonthius</c>
+              <c>2014-12-21</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>Christine</c>
+              <c>Bonthius</c>
+              <c>2014-10-01</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>Joe</c>
+              <c>Miller</c>
+              <c>2013-09-06</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Christine</c>
+              <c>Bonthius</c>
+              <c>2014-01-26</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="415" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="FirstName" />
+            <Field name="LastName" />
+            <Field name="JoinDate" />
+          </Fields>
+          <Data>
+            <r>
+              <c>31</c>
+              <c>Christine</c>
+              <c>Bonthius</c>
+              <c>2014-12-21</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>Christine</c>
+              <c>Bonthius</c>
+              <c>2014-10-01</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Christine</c>
+              <c>Bonthius</c>
+              <c>2014-01-26</c>
+            </r>
+            <r>
+              <c>49</c>
+              <c>Joe</c>
+              <c>Miller</c>
+              <c>2014-08-21</c>
+            </r>
+            <r>
+              <c>456</c>
+              <c>Joe</c>
+              <c>Miller</c>
+              <c>2014-04-01</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>Joe</c>
+              <c>Miller</c>
+              <c>2013-09-06</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="91" y="54" width="324" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort Tool Examples</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="558" y="42" width="180" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Click the triangle on the right to see the solutions.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="90" y="90" width="288" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the Sort tool to achieve the target output.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1181" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="1230" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="582" y="90" width="133.0268" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solutions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="907.0004" y="979.0001" width="120" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Target</Text>
+              <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+              <TextColor name="Gray" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="607.0001" y="955" width="288" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Sort by name ascending and date descending</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="907.0004" y="787.0001" width="120" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Target</Text>
+              <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+              <TextColor name="Gray" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="607.0005" y="751.0001" width="288" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Sort so most recent JoinDate is at top</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="607.0004" y="139" width="288" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Sort values ascending - do not touch the select tool</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="907.0004" y="175.0001" width="120" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Target</Text>
+              <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+              <TextColor name="Gray" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="619.0004" y="211.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Values" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>100</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>200</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="811.0004" y="211" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Values" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Values - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="715.0004" y="211" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Values" selected="True" type="V_String" size="3" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="930.9999" y="211.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Values" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>100</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>200</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="607.0004" y="343.0001" width="288" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Sort values ascending (using dictionary order) - do not touch the select tool</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="907.0004" y="379.0001" width="120" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Target</Text>
+              <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+              <TextColor name="Gray" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="619.0003" y="415.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Values" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>100</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>200</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="811.0004" y="415.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Values" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Values - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="715.0004" y="415.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Values" selected="True" type="V_String" size="3" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="930.9999" y="415" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Values" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>100</c>
+                </r>
+                <r>
+                  <c>200</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="607.0004" y="547.0001" width="288" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Sort values ascending ]]></Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="907.0004" y="583.0001" width="120" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Target</Text>
+              <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+              <TextColor name="Gray" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="619.0003" y="619.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Values" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>100</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>200</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="751.0004" y="619.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Values" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Values - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="930.9999" y="619.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Values" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                </r>
+                <r>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>10</c>
+                </r>
+                <r>
+                  <c>20</c>
+                </r>
+                <r>
+                  <c>100</c>
+                </r>
+                <r>
+                  <c>200</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="631.0005" y="835.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="CustomerID" />
+                <Field name="FirstName" />
+                <Field name="LastName" />
+                <Field name="Gender" />
+                <Field name="JoinDate" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>49</c>
+                  <c>Thomas</c>
+                  <c>Edison</c>
+                  <c>M</c>
+                  <c>2014-08-21</c>
+                </r>
+                <r>
+                  <c>456</c>
+                  <c>Galileo</c>
+                  <c />
+                  <c>M</c>
+                  <c>2014-04-01</c>
+                </r>
+                <r>
+                  <c>31</c>
+                  <c>Benjamin</c>
+                  <c>Franklin</c>
+                  <c>M</c>
+                  <c>2014-12-21</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>Dorothy</c>
+                  <c>Gerber</c>
+                  <c>F</c>
+                  <c>2014-10-01</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>Louis</c>
+                  <c>Pasteur</c>
+                  <c>M</c>
+                  <c>2013-09-06</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Tim</c>
+                  <c>Berners-Lee</c>
+                  <c>M</c>
+                  <c>2014-01-26</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="751.0005" y="835.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="JoinDate" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>JoinDate - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="942.9999" y="823.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="CustomerID" />
+                <Field name="FirstName" />
+                <Field name="LastName" />
+                <Field name="Gender" />
+                <Field name="JoinDate" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>31</c>
+                  <c>Benjamin</c>
+                  <c>Franklin</c>
+                  <c>M</c>
+                  <c>2014-12-21</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>Dorothy</c>
+                  <c>Gerber</c>
+                  <c>F</c>
+                  <c>2014-10-01</c>
+                </r>
+                <r>
+                  <c>49</c>
+                  <c>Thomas</c>
+                  <c>Edison</c>
+                  <c>M</c>
+                  <c>2014-08-21</c>
+                </r>
+                <r>
+                  <c>456</c>
+                  <c>Galileo</c>
+                  <c />
+                  <c>M</c>
+                  <c>2014-04-01</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Tim</c>
+                  <c>Berners-Lee</c>
+                  <c>M</c>
+                  <c>2014-01-26</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>Louis</c>
+                  <c>Pasteur</c>
+                  <c>M</c>
+                  <c>2013-09-06</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="631.0004" y="1039" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="CustomerID" />
+                <Field name="FirstName" />
+                <Field name="LastName" />
+                <Field name="JoinDate" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>49</c>
+                  <c>Joe</c>
+                  <c>Miller</c>
+                  <c>2014-08-21</c>
+                </r>
+                <r>
+                  <c>456</c>
+                  <c>Joe</c>
+                  <c>Miller</c>
+                  <c>2014-04-01</c>
+                </r>
+                <r>
+                  <c>31</c>
+                  <c>Christine</c>
+                  <c>Bonthius</c>
+                  <c>2014-12-21</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>Christine</c>
+                  <c>Bonthius</c>
+                  <c>2014-10-01</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>Joe</c>
+                  <c>Miller</c>
+                  <c>2013-09-06</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Christine</c>
+                  <c>Bonthius</c>
+                  <c>2014-01-26</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="739.0002" y="1039" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="FirstName" order="Ascending" />
+                <Field field="LastName" order="Ascending" />
+                <Field field="JoinDate" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>FirstName - Ascending
+LastName - Ascending
+JoinDate - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="930.9999" y="1015" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="CustomerID" />
+                <Field name="FirstName" />
+                <Field name="LastName" />
+                <Field name="JoinDate" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>31</c>
+                  <c>Christine</c>
+                  <c>Bonthius</c>
+                  <c>2014-12-21</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>Christine</c>
+                  <c>Bonthius</c>
+                  <c>2014-10-01</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Christine</c>
+                  <c>Bonthius</c>
+                  <c>2014-01-26</c>
+                </r>
+                <r>
+                  <c>49</c>
+                  <c>Joe</c>
+                  <c>Miller</c>
+                  <c>2014-08-21</c>
+                </r>
+                <r>
+                  <c>456</c>
+                  <c>Joe</c>
+                  <c>Miller</c>
+                  <c>2014-04-01</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>Joe</c>
+                  <c>Miller</c>
+                  <c>2013-09-06</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-1" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>sort_try_it</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

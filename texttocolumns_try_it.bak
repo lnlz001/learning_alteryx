@@ -1,0 +1,1513 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="67" y="54" width="347" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Text to Columns Tool Examples</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="331" y="174" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="67" y="138" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create a separate column for address, city, state, ZIP</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="91" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="Name" />
+            <Field name="Address" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>PAMELA WRIGHT</c>
+              <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>MELISSA RUFF</c>
+              <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>CONSTANTI VLASSIS</c>
+              <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>AMY LOCKEMER</c>
+              <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>DANELL VALDEZ</c>
+              <c>2925 W College Ave,Denver,CO,80219-6059</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>JESSICA RINEHART</c>
+              <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>NANCY CLARK</c>
+              <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>ANDREA BRUN</c>
+              <c>2080 Fenton St,Denver,CO,80214</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>DENISE PENTICO</c>
+              <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>ERNA ARUSTAMYAN</c>
+              <c>1137 S Boston Ct,Denver,CO,80247</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="355" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="Name" />
+            <Field name="Address" />
+            <Field name="Address1" />
+            <Field name="Address2" />
+            <Field name="Address3" />
+            <Field name="Address4" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>PAMELA WRIGHT</c>
+              <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+              <c>2316 E 5th Ave</c>
+              <c>Denver</c>
+              <c>CO</c>
+              <c>80206-4205</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>MELISSA RUFF</c>
+              <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+              <c>2753 S Milwaukee St</c>
+              <c>Denver</c>
+              <c>CO</c>
+              <c>80210-6426</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>CONSTANTI VLASSIS</c>
+              <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+              <c>16911 E Harvard Ave</c>
+              <c>Aurora</c>
+              <c>CO</c>
+              <c>0013-1507</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>AMY LOCKEMER</c>
+              <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+              <c>3721 S Pitkin Ct</c>
+              <c>Aurora</c>
+              <c>CO</c>
+              <c>80013-3024</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>DANELL VALDEZ</c>
+              <c>2925 W College Ave,Denver,CO,80219-6059</c>
+              <c>2925 W College Ave</c>
+              <c>Denver</c>
+              <c>CO</c>
+              <c>80219-6059</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>JESSICA RINEHART</c>
+              <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+              <c>4220 W 35th Ave</c>
+              <c>Denver</c>
+              <c>CO</c>
+              <c>80212-1902</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>NANCY CLARK</c>
+              <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+              <c>8785 Cloverleaf Cir</c>
+              <c>Parker</c>
+              <c>CO</c>
+              <c>80134</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>ANDREA BRUN</c>
+              <c>2080 Fenton St,Denver,CO,80214</c>
+              <c>2080 Fenton St</c>
+              <c>Denver</c>
+              <c>CO</c>
+              <c>80214</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>DENISE PENTICO</c>
+              <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+              <c>4125C S Evanston Cir</c>
+              <c>Aurora</c>
+              <c>CO</c>
+              <c>80014</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>ERNA ARUSTAMYAN</c>
+              <c>1137 S Boston Ct,Denver,CO,80247</c>
+              <c>1137 S Boston Ct</c>
+              <c>Denver</c>
+              <c>CO</c>
+              <c>80247</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="331" y="354" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="67" y="306" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create a separate column for address, city, state, ZIP - keep state and ZIP together in the parse!</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="91" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="Name" />
+            <Field name="Address" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>PAMELA WRIGHT</c>
+              <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>MELISSA RUFF</c>
+              <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>CONSTANTI VLASSIS</c>
+              <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>AMY LOCKEMER</c>
+              <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>DANELL VALDEZ</c>
+              <c>2925 W College Ave,Denver,CO,80219-6059</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>JESSICA RINEHART</c>
+              <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>NANCY CLARK</c>
+              <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>ANDREA BRUN</c>
+              <c>2080 Fenton St,Denver,CO,80214</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>DENISE PENTICO</c>
+              <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>ERNA ARUSTAMYAN</c>
+              <c>1137 S Boston Ct,Denver,CO,80247</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="355" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="Name" />
+            <Field name="Address" />
+            <Field name="Address1" />
+            <Field name="Address2" />
+            <Field name="Address3" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>PAMELA WRIGHT</c>
+              <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+              <c>2316 E 5th Ave</c>
+              <c>Denver</c>
+              <c>CO,80206-4205</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>MELISSA RUFF</c>
+              <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+              <c>2753 S Milwaukee St</c>
+              <c>Denver</c>
+              <c>CO,80210-6426</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>CONSTANTI VLASSIS</c>
+              <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+              <c>16911 E Harvard Ave</c>
+              <c>Aurora</c>
+              <c>CO,0013-1507</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>AMY LOCKEMER</c>
+              <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+              <c>3721 S Pitkin Ct</c>
+              <c>Aurora</c>
+              <c>CO,80013-3024</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>DANELL VALDEZ</c>
+              <c>2925 W College Ave,Denver,CO,80219-6059</c>
+              <c>2925 W College Ave</c>
+              <c>Denver</c>
+              <c>CO,80219-6059</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>JESSICA RINEHART</c>
+              <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+              <c>4220 W 35th Ave</c>
+              <c>Denver</c>
+              <c>CO,80212-1902</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>NANCY CLARK</c>
+              <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+              <c>8785 Cloverleaf Cir</c>
+              <c>Parker</c>
+              <c>CO,80134</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>ANDREA BRUN</c>
+              <c>2080 Fenton St,Denver,CO,80214</c>
+              <c>2080 Fenton St</c>
+              <c>Denver</c>
+              <c>CO,80214</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>DENISE PENTICO</c>
+              <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+              <c>4125C S Evanston Cir</c>
+              <c>Aurora</c>
+              <c>CO,80014</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>ERNA ARUSTAMYAN</c>
+              <c>1137 S Boston Ct,Denver,CO,80247</c>
+              <c>1137 S Boston Ct</c>
+              <c>Denver</c>
+              <c>CO,80247</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="331" y="522" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="67" y="474" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Parse out the name field</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="91" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="Name" />
+            <Field name="Address" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>PAMELA WRIGHT</c>
+              <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>MELISSA RUFF</c>
+              <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>CONSTANTI VLASSIS</c>
+              <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>AMY LOCKEMER</c>
+              <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>DANELL VALDEZ</c>
+              <c>2925 W College Ave,Denver,CO,80219-6059</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>JESSICA RINEHART</c>
+              <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>NANCY CLARK</c>
+              <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>ANDREA BRUN</c>
+              <c>2080 Fenton St,Denver,CO,80214</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>DENISE PENTICO</c>
+              <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>ERNA ARUSTAMYAN</c>
+              <c>1137 S Boston Ct,Denver,CO,80247</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="355" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="Name" />
+            <Field name="Address" />
+            <Field name="Name1" />
+            <Field name="Name2" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>PAMELA WRIGHT</c>
+              <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+              <c>PAMELA</c>
+              <c>WRIGHT</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>MELISSA RUFF</c>
+              <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+              <c>MELISSA</c>
+              <c>RUFF</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>CONSTANTI VLASSIS</c>
+              <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+              <c>CONSTANTI</c>
+              <c>VLASSIS</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>AMY LOCKEMER</c>
+              <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+              <c>AMY</c>
+              <c>LOCKEMER</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>DANELL VALDEZ</c>
+              <c>2925 W College Ave,Denver,CO,80219-6059</c>
+              <c>DANELL</c>
+              <c>VALDEZ</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>JESSICA RINEHART</c>
+              <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+              <c>JESSICA</c>
+              <c>RINEHART</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>NANCY CLARK</c>
+              <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+              <c>NANCY</c>
+              <c>CLARK</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>ANDREA BRUN</c>
+              <c>2080 Fenton St,Denver,CO,80214</c>
+              <c>ANDREA</c>
+              <c>BRUN</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>DENISE PENTICO</c>
+              <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+              <c>DENISE</c>
+              <c>PENTICO</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>ERNA ARUSTAMYAN</c>
+              <c>1137 S Boston Ct,Denver,CO,80247</c>
+              <c>ERNA</c>
+              <c>ARUSTAMYAN</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="331" y="690" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="67" y="642" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create a separate column for address, city, state- do not keep ZIP</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="91" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="Name" />
+            <Field name="Address" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>PAMELA WRIGHT</c>
+              <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>MELISSA RUFF</c>
+              <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>CONSTANTI VLASSIS</c>
+              <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>AMY LOCKEMER</c>
+              <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>DANELL VALDEZ</c>
+              <c>2925 W College Ave,Denver,CO,80219-6059</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>JESSICA RINEHART</c>
+              <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>NANCY CLARK</c>
+              <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>ANDREA BRUN</c>
+              <c>2080 Fenton St,Denver,CO,80214</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>DENISE PENTICO</c>
+              <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>ERNA ARUSTAMYAN</c>
+              <c>1137 S Boston Ct,Denver,CO,80247</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="355" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="CustomerID" />
+            <Field name="Name" />
+            <Field name="Address" />
+            <Field name="Address1" />
+            <Field name="Address2" />
+            <Field name="Address3" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>PAMELA WRIGHT</c>
+              <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+              <c>2316 E 5th Ave</c>
+              <c>Denver</c>
+              <c>CO</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>MELISSA RUFF</c>
+              <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+              <c>2753 S Milwaukee St</c>
+              <c>Denver</c>
+              <c>CO</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>CONSTANTI VLASSIS</c>
+              <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+              <c>16911 E Harvard Ave</c>
+              <c>Aurora</c>
+              <c>CO</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>AMY LOCKEMER</c>
+              <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+              <c>3721 S Pitkin Ct</c>
+              <c>Aurora</c>
+              <c>CO</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>DANELL VALDEZ</c>
+              <c>2925 W College Ave,Denver,CO,80219-6059</c>
+              <c>2925 W College Ave</c>
+              <c>Denver</c>
+              <c>CO</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>JESSICA RINEHART</c>
+              <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+              <c>4220 W 35th Ave</c>
+              <c>Denver</c>
+              <c>CO</c>
+            </r>
+            <r>
+              <c>7</c>
+              <c>NANCY CLARK</c>
+              <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+              <c>8785 Cloverleaf Cir</c>
+              <c>Parker</c>
+              <c>CO</c>
+            </r>
+            <r>
+              <c>8</c>
+              <c>ANDREA BRUN</c>
+              <c>2080 Fenton St,Denver,CO,80214</c>
+              <c>2080 Fenton St</c>
+              <c>Denver</c>
+              <c>CO</c>
+            </r>
+            <r>
+              <c>9</c>
+              <c>DENISE PENTICO</c>
+              <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+              <c>4125C S Evanston Cir</c>
+              <c>Aurora</c>
+              <c>CO</c>
+            </r>
+            <r>
+              <c>10</c>
+              <c>ERNA ARUSTAMYAN</c>
+              <c>1137 S Boston Ct,Denver,CO,80247</c>
+              <c>1137 S Boston Ct</c>
+              <c>Denver</c>
+              <c>CO</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="486" y="42" width="180" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Click the triangle on the right to see the solutions.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="90" width="372" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the Text to Columns tool to achieve the target output.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="510" y="90" width="133.0268" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solutions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="535" y="139" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Create a separate column for address, city, state, ZIP</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="559" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="CustomerID" />
+                <Field name="Name" />
+                <Field name="Address" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>PAMELA WRIGHT</c>
+                  <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>MELISSA RUFF</c>
+                  <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>CONSTANTI VLASSIS</c>
+                  <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>AMY LOCKEMER</c>
+                  <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>DANELL VALDEZ</c>
+                  <c>2925 W College Ave,Denver,CO,80219-6059</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>JESSICA RINEHART</c>
+                  <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>NANCY CLARK</c>
+                  <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>ANDREA BRUN</c>
+                  <c>2080 Fenton St,Denver,CO,80214</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>DENISE PENTICO</c>
+                  <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>ERNA ARUSTAMYAN</c>
+                  <c>1137 S Boston Ct,Denver,CO,80247</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="667" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Address</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Address</RootName>
+              <Delimeters value="," />
+              <NumFields value="4" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="535" y="307" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Create a separate column for address, city, state, ZIP - keep state and ZIP together in the parse!</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="559" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="CustomerID" />
+                <Field name="Name" />
+                <Field name="Address" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>PAMELA WRIGHT</c>
+                  <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>MELISSA RUFF</c>
+                  <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>CONSTANTI VLASSIS</c>
+                  <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>AMY LOCKEMER</c>
+                  <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>DANELL VALDEZ</c>
+                  <c>2925 W College Ave,Denver,CO,80219-6059</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>JESSICA RINEHART</c>
+                  <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>NANCY CLARK</c>
+                  <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>ANDREA BRUN</c>
+                  <c>2080 Fenton St,Denver,CO,80214</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>DENISE PENTICO</c>
+                  <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>ERNA ARUSTAMYAN</c>
+                  <c>1137 S Boston Ct,Denver,CO,80247</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="667" y="367" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Address</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Address</RootName>
+              <Delimeters value="," />
+              <NumFields value="3" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="535" y="475" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Parse out the name field</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="559" y="535" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="CustomerID" />
+                <Field name="Name" />
+                <Field name="Address" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>PAMELA WRIGHT</c>
+                  <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>MELISSA RUFF</c>
+                  <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>CONSTANTI VLASSIS</c>
+                  <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>AMY LOCKEMER</c>
+                  <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>DANELL VALDEZ</c>
+                  <c>2925 W College Ave,Denver,CO,80219-6059</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>JESSICA RINEHART</c>
+                  <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>NANCY CLARK</c>
+                  <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>ANDREA BRUN</c>
+                  <c>2080 Fenton St,Denver,CO,80214</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>DENISE PENTICO</c>
+                  <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>ERNA ARUSTAMYAN</c>
+                  <c>1137 S Boston Ct,Denver,CO,80247</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="667.0001" y="535" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Name</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Name</RootName>
+              <Delimeters value="\s" />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="535" y="643" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Create a separate column for address, city, state- do not keep ZIP</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="559.0002" y="703" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="CustomerID" />
+                <Field name="Name" />
+                <Field name="Address" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>PAMELA WRIGHT</c>
+                  <c>2316 E 5th Ave,Denver,CO,80206-4205</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>MELISSA RUFF</c>
+                  <c>2753 S Milwaukee St,Denver,CO,80210-6426</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>CONSTANTI VLASSIS</c>
+                  <c>16911 E Harvard Ave,Aurora,CO,0013-1507</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>AMY LOCKEMER</c>
+                  <c>3721 S Pitkin Ct,Aurora,CO,80013-3024</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>DANELL VALDEZ</c>
+                  <c>2925 W College Ave,Denver,CO,80219-6059</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>JESSICA RINEHART</c>
+                  <c>4220 W 35th Ave,Denver,CO,80212-1902</c>
+                </r>
+                <r>
+                  <c>7</c>
+                  <c>NANCY CLARK</c>
+                  <c>8785 Cloverleaf Cir,Parker,CO,80134</c>
+                </r>
+                <r>
+                  <c>8</c>
+                  <c>ANDREA BRUN</c>
+                  <c>2080 Fenton St,Denver,CO,80214</c>
+                </r>
+                <r>
+                  <c>9</c>
+                  <c>DENISE PENTICO</c>
+                  <c>4125C S Evanston Cir,Aurora,CO,80014</c>
+                </r>
+                <r>
+                  <c>10</c>
+                  <c>ERNA ARUSTAMYAN</c>
+                  <c>1137 S Boston Ct,Denver,CO,80247</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="666.9999" y="703" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Address</Field>
+              <ErrorHandling>Ignore</ErrorHandling>
+              <RootName>Address</RootName>
+              <Delimeters value="," />
+              <NumFields value="3" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="833" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="882" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-2" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>texttocolumns_try_it</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="114" y="102" />
+        <Position x="66" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -25,9 +25,6 @@
           <DefaultAnnotationText>Tree_Survey_2016.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Tree ID" size="254" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2016.csv" type="V_String" />
@@ -47,7 +44,7 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="102" y="234" />
+        <Position x="54" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -64,9 +61,6 @@
 Query=`Sheet1$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Latitude" source="File: C:\Users\music\devprojects\alteryxdev\learning_alteryx\Tree_Survey_2017.xlsx|||`Sheet1$`" type="Double" />
@@ -86,7 +80,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="102" y="390" />
+        <Position x="54" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -99,9 +93,6 @@ Query=`Sheet1$`</DefaultAnnotationText>
           <DefaultAnnotationText>Tree_Survey_2018.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Tree ID" size="254" source="Formula: if Length([Tree ID]) &lt; 6 then PadLeft([Tree ID], 6, &quot;0&quot;) else [Tree ID] endif" type="V_String" />
@@ -122,7 +113,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="690" y="270" />
+        <Position x="642" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -141,7 +132,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="210" y="102" />
+        <Position x="162" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -166,7 +157,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="282" y="510" />
+        <Position x="234" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -208,7 +199,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="810" y="282" />
+        <Position x="762" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -251,7 +242,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="378" y="510" />
+        <Position x="330" y="462" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -271,40 +262,9 @@ Query=`Sheet1$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="10">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1002" y="282" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\music\AppData\Local\Temp\Engine_32688_50443b525a7b4f3a80e674e5f159796f_\Engine_4032_9976ceab0111413eb6543d8b0143e0f0_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Map</DefaultTab>
-              <Hints>
-                <Map>
-                  <BaseMap>Latest:DarkCarto</BaseMap>
-                </Map>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="906" y="282" />
+        <Position x="858" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -319,16 +279,33 @@ Query=`Sheet1$`</DefaultAnnotationText>
               <PeriodType>
               </PeriodType>
               <PeriodCount>0</PeriodCount>
-              <StartDate>2020-05-14 22:51:05</StartDate>
-              <EndDate>2020-05-14 22:51:05</EndDate>
               <Operand>
               </Operand>
+              <StartDate>2020-05-14 22:51:05</StartDate>
+              <EndDate>2020-05-14 22:51:05</EndDate>
             </Operands>
           </Simple>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>!IsNull([Common Name])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="978" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Health] = 'Good' and [Height (m)] &gt;= 10</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Health] = 'Good' and [Height (m)] &gt;= 10</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
@@ -370,7 +347,7 @@ Query=`Sheet1$`</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="11" Connection="True" />
-      <Destination ToolID="10" Connection="Input" />
+      <Destination ToolID="12" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
