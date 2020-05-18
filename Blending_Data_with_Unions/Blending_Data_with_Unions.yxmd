@@ -147,7 +147,7 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\music\AppData\Local\Temp\Engine_28816_9b9cc9a2b80e4ad2b3ebead56c3b266c_\Engine_36496_aca9eca5e72d4dd0a2df6f581a819eea_.yxdb</TempFile>
+          <TempFile>C:\Users\music\AppData\Local\Temp\Engine_15236_11ce6dd95f9f4014bfcb1d69b44e8d8a_\Engine_36496_b7de0716efa6417ba0bc3831700f01ef_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -327,6 +327,58 @@ Table=`Sheet1$`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
     </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="750" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Borough Code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Borough Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Borough Code" selected="True" rename="Right_Borough Code" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Borough Code" selected="True" type="V_String" size="3" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -350,12 +402,24 @@ Table=`Sheet1$`</DefaultAnnotationText>
       <Destination ToolID="8" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="12" Connection="Output" />
       <Destination ToolID="13" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="13" Connection="Output" />
       <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
     </Connection>
   </Connections>
   <Properties>
