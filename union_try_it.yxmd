@@ -1,0 +1,1976 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="379" y="786" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="379" y="990" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="79" y="966" width="264" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Auto-configure by name (only output common field subsets)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="79" y="762" width="264" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Auto-configure by name. Ensure the data from second data set is forced to the top of the resulting data set with the 'Set specific output order option'.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="79" y="558" width="264" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Manually Configure the fields</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="79" y="354" width="264" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Configure by Position</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="79" y="150" width="264" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Auto configure by name</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="379" y="186" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="115" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="115" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="lastName" />
+            <Field name="firstName" />
+            <Field name="ID" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>Louis</c>
+              <c>Pasteur</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Alexander</c>
+              <c>Bell</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Alfred</c>
+              <c>Nobel</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>Henry</c>
+              <c>Ford</c>
+              <c>8</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="115" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="Field1" />
+            <Field name="Field2" />
+            <Field name="Field3" />
+            <Field name="Field4" />
+          </Fields>
+          <Data>
+            <r>
+              <c>3</c>
+              <c>9</c>
+              <c>Louis</c>
+              <c>Braille</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>10</c>
+              <c>Edward</c>
+              <c>Teller</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>11</c>
+              <c>Charles</c>
+              <c>Goodyear</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>12</c>
+              <c>Edward</c>
+              <c>Jenner</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="115" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="Field1" />
+            <Field name="Field2" />
+            <Field name="Field3" />
+            <Field name="Field4" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Zamboni</c>
+              <c>Frank</c>
+              <c>4</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>Harington</c>
+              <c>John</c>
+              <c>4</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>Paul</c>
+              <c>Les</c>
+              <c>4</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>Reard</c>
+              <c>Louis</c>
+              <c>4</c>
+              <c>24</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="115" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="115" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="114" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+            <Field name="Gender" />
+          </Fields>
+          <Data>
+            <r>
+              <c>5</c>
+              <c>25</c>
+              <c>John</c>
+              <c>Deere</c>
+              <c>M</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>26</c>
+              <c>Orville</c>
+              <c>Wright</c>
+              <c>M</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>27</c>
+              <c>Wilbur</c>
+              <c>Wright</c>
+              <c>M</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>28</c>
+              <c>Dorothy</c>
+              <c>Gerber</c>
+              <c>F</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="403" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="8" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>5</c>
+              <c>Pasteur</c>
+              <c>Louis</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>6</c>
+              <c>Bell</c>
+              <c>Alexander</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>7</c>
+              <c>Nobel</c>
+              <c>Alfred</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>8</c>
+              <c>Ford</c>
+              <c>Henry</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="379" y="390" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="403" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="8" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>3</c>
+              <c>9</c>
+              <c>Louis</c>
+              <c>Braille</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>10</c>
+              <c>Edward</c>
+              <c>Teller</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>11</c>
+              <c>Charles</c>
+              <c>Goodyear</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>12</c>
+              <c>Edward</c>
+              <c>Jenner</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="379" y="594" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="403" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="8" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>4</c>
+              <c>21</c>
+              <c>Frank</c>
+              <c>Zamboni</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>22</c>
+              <c>John</c>
+              <c>Harington</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>23</c>
+              <c>Les</c>
+              <c>Paul</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>24</c>
+              <c>Louis</c>
+              <c>Reard</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="403" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="8" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>25</c>
+              <c>John</c>
+              <c>Deere</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>26</c>
+              <c>Orville</c>
+              <c>Wright</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>27</c>
+              <c>Wilbur</c>
+              <c>Wright</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>28</c>
+              <c>Dorothy</c>
+              <c>Gerber</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="403" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="8" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+            <Field name="Gender" />
+          </Fields>
+          <Data>
+            <r>
+              <c>5</c>
+              <c>25</c>
+              <c>John</c>
+              <c>Deere</c>
+              <c>M</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>26</c>
+              <c>Orville</c>
+              <c>Wright</c>
+              <c>M</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>27</c>
+              <c>Wilbur</c>
+              <c>Wright</c>
+              <c>M</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>28</c>
+              <c>Dorothy</c>
+              <c>Gerber</c>
+              <c>F</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+              <c />
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+              <c />
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+              <c />
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+              <c />
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="114" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="115" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>1</c>
+              <c>Tim</c>
+              <c>Berners-Lee</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>2</c>
+              <c>Isaac</c>
+              <c>Newton</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>3</c>
+              <c>Benjamin</c>
+              <c>Franklin</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>4</c>
+              <c>Thomas</c>
+              <c>Edison</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="114" y="1086" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="StreamNumber" />
+            <Field name="ID" />
+            <Field name="firstName" />
+            <Field name="lastName" />
+            <Field name="Gender" />
+          </Fields>
+          <Data>
+            <r>
+              <c>5</c>
+              <c>25</c>
+              <c>John</c>
+              <c>Deere</c>
+              <c>M</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>26</c>
+              <c>Orville</c>
+              <c>Wright</c>
+              <c>M</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>27</c>
+              <c>Wilbur</c>
+              <c>Wright</c>
+              <c>M</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>28</c>
+              <c>Dorothy</c>
+              <c>Gerber</c>
+              <c>F</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="79" y="66" width="324" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Union Tool Examples</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="606" y="54" width="180" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Click the triangle on the right to see the solutions.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="102" width="408" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the Union tool to achieve the target output.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1229" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="1278" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="629.9999" y="101" width="133.0268" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solutions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="654.9998" y="966" width="264" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Auto-configure by name (only output common field subsets)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="655" y="762" width="264" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Auto-configure by name. Ensure the data from second data set is forced to the top of the resulting data set with the 'Set specific output order option'.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="654.9999" y="558" width="264" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Manually Configure the fields</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="655" y="354" width="264" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Configure by Position</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="655" y="150" width="264" height="192" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Auto configure by name</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="691" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="StreamNumber" />
+                <Field name="ID" />
+                <Field name="firstName" />
+                <Field name="lastName" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>Tim</c>
+                  <c>Berners-Lee</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>2</c>
+                  <c>Isaac</c>
+                  <c>Newton</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>3</c>
+                  <c>Benjamin</c>
+                  <c>Franklin</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>4</c>
+                  <c>Thomas</c>
+                  <c>Edison</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="811" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="691" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="StreamNumber" />
+                <Field name="lastName" />
+                <Field name="firstName" />
+                <Field name="ID" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>Louis</c>
+                  <c>Pasteur</c>
+                  <c>5</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Alexander</c>
+                  <c>Bell</c>
+                  <c>6</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Alfred</c>
+                  <c>Nobel</c>
+                  <c>7</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>Henry</c>
+                  <c>Ford</c>
+                  <c>8</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="691" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="Field1" />
+                <Field name="Field2" />
+                <Field name="Field3" />
+                <Field name="Field4" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>3</c>
+                  <c>9</c>
+                  <c>Louis</c>
+                  <c>Braille</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>10</c>
+                  <c>Edward</c>
+                  <c>Teller</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>11</c>
+                  <c>Charles</c>
+                  <c>Goodyear</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>12</c>
+                  <c>Edward</c>
+                  <c>Jenner</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="835" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByPos</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="690.9999" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="Field1" />
+                <Field name="Field2" />
+                <Field name="Field3" />
+                <Field name="Field4" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Zamboni</c>
+                  <c>Frank</c>
+                  <c>4</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>Harington</c>
+                  <c>John</c>
+                  <c>4</c>
+                  <c>22</c>
+                </r>
+                <r>
+                  <c>Paul</c>
+                  <c>Les</c>
+                  <c>4</c>
+                  <c>23</c>
+                </r>
+                <r>
+                  <c>Reard</c>
+                  <c>Louis</c>
+                  <c>4</c>
+                  <c>24</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="835" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>Custom</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#4">
+                  <RecordInfo>
+                    <Field name="Field3" source="TextInput:" type="Byte" column="1" />
+                    <Field name="Field4" source="TextInput:" type="Byte" column="2" />
+                    <Field name="Field2" size="5" source="TextInput:" type="String" column="3" />
+                    <Field name="Field1" size="9" source="TextInput:" type="String" column="4" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="StreamNumber" source="TextInput:" type="Byte" column="1" />
+                    <Field name="ID" source="TextInput:" type="Byte" column="2" />
+                    <Field name="firstName" size="8" source="TextInput:" type="String" column="3" />
+                    <Field name="lastName" size="11" source="TextInput:" type="String" column="4" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>Manual</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="691" y="390" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="StreamNumber" />
+                <Field name="ID" />
+                <Field name="firstName" />
+                <Field name="lastName" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>Tim</c>
+                  <c>Berners-Lee</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>2</c>
+                  <c>Isaac</c>
+                  <c>Newton</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>3</c>
+                  <c>Benjamin</c>
+                  <c>Franklin</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>4</c>
+                  <c>Thomas</c>
+                  <c>Edison</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="691" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="StreamNumber" />
+                <Field name="ID" />
+                <Field name="firstName" />
+                <Field name="lastName" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>Tim</c>
+                  <c>Berners-Lee</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>2</c>
+                  <c>Isaac</c>
+                  <c>Newton</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>3</c>
+                  <c>Benjamin</c>
+                  <c>Franklin</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>4</c>
+                  <c>Thomas</c>
+                  <c>Edison</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="689.9998" y="882" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="StreamNumber" />
+                <Field name="ID" />
+                <Field name="firstName" />
+                <Field name="lastName" />
+                <Field name="Gender" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>5</c>
+                  <c>25</c>
+                  <c>John</c>
+                  <c>Deere</c>
+                  <c>M</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>26</c>
+                  <c>Orville</c>
+                  <c>Wright</c>
+                  <c>M</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>27</c>
+                  <c>Wilbur</c>
+                  <c>Wright</c>
+                  <c>M</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>28</c>
+                  <c>Dorothy</c>
+                  <c>Gerber</c>
+                  <c>F</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="834.9998" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#2</Connection>
+                <Connection>#1</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="811.0001" y="1038" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+              <ByName_OutputMode>Subset</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#1</Connection>
+                <Connection>#2</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="690.0001" y="810" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="StreamNumber" />
+                <Field name="ID" />
+                <Field name="firstName" />
+                <Field name="lastName" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>Tim</c>
+                  <c>Berners-Lee</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>2</c>
+                  <c>Isaac</c>
+                  <c>Newton</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>3</c>
+                  <c>Benjamin</c>
+                  <c>Franklin</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>4</c>
+                  <c>Thomas</c>
+                  <c>Edison</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="691.0003" y="1014" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="StreamNumber" />
+                <Field name="ID" />
+                <Field name="firstName" />
+                <Field name="lastName" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>Tim</c>
+                  <c>Berners-Lee</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>2</c>
+                  <c>Isaac</c>
+                  <c>Newton</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>3</c>
+                  <c>Benjamin</c>
+                  <c>Franklin</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>4</c>
+                  <c>Thomas</c>
+                  <c>Edison</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="690.0002" y="1086" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="4" />
+              <Fields>
+                <Field name="StreamNumber" />
+                <Field name="ID" />
+                <Field name="firstName" />
+                <Field name="lastName" />
+                <Field name="Gender" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>5</c>
+                  <c>25</c>
+                  <c>John</c>
+                  <c>Deere</c>
+                  <c>M</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>26</c>
+                  <c>Orville</c>
+                  <c>Wright</c>
+                  <c>M</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>27</c>
+                  <c>Wilbur</c>
+                  <c>Wright</c>
+                  <c>M</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>28</c>
+                  <c>Dorothy</c>
+                  <c>Gerber</c>
+                  <c>F</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-1" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>union_try_it</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
