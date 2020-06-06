@@ -1,0 +1,6300 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="618" width="288" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Pivot to match target</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="354" y="642" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="103" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="156" />
+          <Fields>
+            <Field name="NAME" />
+            <Field name="ADDRESS" />
+            <Field name="CITY" />
+            <Field name="STATE" />
+            <Field name="ZIP" />
+            <Field name="Name2" />
+            <Field name="Value" />
+          </Fields>
+          <Data>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>January</c>
+              <c>125000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>February</c>
+              <c>122000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>March</c>
+              <c>130000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>April</c>
+              <c>102000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>May</c>
+              <c>98000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>June</c>
+              <c>136000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>July</c>
+              <c>120000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c><![CDATA[August ]]></c>
+              <c>94000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>September</c>
+              <c>156000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>October</c>
+              <c>110000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>November</c>
+              <c>116000</c>
+            </r>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>December</c>
+              <c>118000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>January</c>
+              <c>75000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>February</c>
+              <c>62000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>March</c>
+              <c>68000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>April</c>
+              <c>79000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>May</c>
+              <c>85000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>June</c>
+              <c>65000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>July</c>
+              <c>60000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c><![CDATA[August ]]></c>
+              <c>89000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>September</c>
+              <c>74000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>October</c>
+              <c>62000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>November</c>
+              <c>61000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>December</c>
+              <c>78000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>January</c>
+              <c>110000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>February</c>
+              <c>96500</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>March</c>
+              <c>112000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>April</c>
+              <c>102000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>May</c>
+              <c>98000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>June</c>
+              <c>99000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>July</c>
+              <c>101000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c><![CDATA[August ]]></c>
+              <c>104000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>September</c>
+              <c>115000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>October</c>
+              <c>113000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>November</c>
+              <c>97000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>December</c>
+              <c>103000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>January</c>
+              <c>90000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>February</c>
+              <c>74000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>March</c>
+              <c>88000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>April</c>
+              <c>84000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>May</c>
+              <c>77000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>June</c>
+              <c>81000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>July</c>
+              <c>87000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c><![CDATA[August ]]></c>
+              <c>94000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>September</c>
+              <c>89000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>October</c>
+              <c>84000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>November</c>
+              <c>86000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>December</c>
+              <c>77000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>January</c>
+              <c>220000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>February</c>
+              <c>205000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>March</c>
+              <c>218000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>April</c>
+              <c>216000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>May</c>
+              <c>200000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>June</c>
+              <c>209000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>July</c>
+              <c>204000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c><![CDATA[August ]]></c>
+              <c>210000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>September</c>
+              <c>221000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>October</c>
+              <c>199000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>November</c>
+              <c>207000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>December</c>
+              <c>219000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>January</c>
+              <c>185000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>February</c>
+              <c>116000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>March</c>
+              <c>182000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>April</c>
+              <c>174000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>May</c>
+              <c>176000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>June</c>
+              <c>189000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>July</c>
+              <c>170000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c><![CDATA[August ]]></c>
+              <c>140000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>September</c>
+              <c>135000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>October</c>
+              <c>138000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>November</c>
+              <c>149000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>December</c>
+              <c>180000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>January</c>
+              <c>110000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>February</c>
+              <c>97000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>March</c>
+              <c>112000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>April</c>
+              <c>116000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>May</c>
+              <c>98000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>June</c>
+              <c>95000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>July</c>
+              <c>94000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c><![CDATA[August ]]></c>
+              <c>114000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>September</c>
+              <c>112000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>October</c>
+              <c>110000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>November</c>
+              <c>102000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>December</c>
+              <c>104000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>January</c>
+              <c>95000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>February</c>
+              <c>83000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>March</c>
+              <c>94000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>April</c>
+              <c>98000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>May</c>
+              <c>100000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>June</c>
+              <c>83000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>July</c>
+              <c>84000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c><![CDATA[August ]]></c>
+              <c>86000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>September</c>
+              <c>94000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>October</c>
+              <c>98000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>November</c>
+              <c>81000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>December</c>
+              <c>87000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>January</c>
+              <c>150000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>February</c>
+              <c>122000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>March</c>
+              <c>148000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>April</c>
+              <c>143000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>May</c>
+              <c>141000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>June</c>
+              <c>152000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>July</c>
+              <c>138000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c><![CDATA[August ]]></c>
+              <c>149000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>September</c>
+              <c>142500</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>October</c>
+              <c>146000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>November</c>
+              <c>139000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>December</c>
+              <c>151000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>January</c>
+              <c>135000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>February</c>
+              <c>100000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>March</c>
+              <c>125000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>April</c>
+              <c>128000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>May</c>
+              <c>135000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>June</c>
+              <c>126000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>July</c>
+              <c>118000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c><![CDATA[August ]]></c>
+              <c>119000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>September</c>
+              <c>106000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>October</c>
+              <c>117000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>November</c>
+              <c>134000</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>December</c>
+              <c>128000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>January</c>
+              <c>125000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>February</c>
+              <c>102000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>March</c>
+              <c>132000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>April</c>
+              <c>124000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>May</c>
+              <c>120000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>June</c>
+              <c>112000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>July</c>
+              <c>116000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c><![CDATA[August ]]></c>
+              <c>106000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>September</c>
+              <c>118000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>October</c>
+              <c>122000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>November</c>
+              <c>124000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>December</c>
+              <c>103000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>January</c>
+              <c>115000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>February</c>
+              <c>98000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>March</c>
+              <c>100000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>April</c>
+              <c>103000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>May</c>
+              <c>112000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>June</c>
+              <c>114000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>July</c>
+              <c>118000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c><![CDATA[August ]]></c>
+              <c>119000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>September</c>
+              <c>102000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>October</c>
+              <c>98000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>November</c>
+              <c>120000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>December</c>
+              <c>115000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>January</c>
+              <c>100000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>February</c>
+              <c>92000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>March</c>
+              <c>103000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>April</c>
+              <c>97000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>May</c>
+              <c>113000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>June</c>
+              <c>115000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>July</c>
+              <c>104000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c><![CDATA[August ]]></c>
+              <c>101000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>September</c>
+              <c>99000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>October</c>
+              <c>98000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>November</c>
+              <c>102000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>December</c>
+              <c>112000</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="138" width="288" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Pivot to match target</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="355" y="162" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="103" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="9" />
+          <Fields>
+            <Field name="Store" />
+            <Field name="Name" />
+            <Field name="Value" />
+          </Fields>
+          <Data>
+            <r>
+              <c>A</c>
+              <c>Home</c>
+              <c>85334</c>
+            </r>
+            <r>
+              <c>A</c>
+              <c>Office</c>
+              <c>98754</c>
+            </r>
+            <r>
+              <c>A</c>
+              <c>Outdoors</c>
+              <c>14423</c>
+            </r>
+            <r>
+              <c>B</c>
+              <c>Home</c>
+              <c>34356</c>
+            </r>
+            <r>
+              <c>B</c>
+              <c>Office</c>
+              <c>75445</c>
+            </r>
+            <r>
+              <c>B</c>
+              <c>Outdoors</c>
+              <c>23423</c>
+            </r>
+            <r>
+              <c>C</c>
+              <c>Home</c>
+              <c>45433</c>
+            </r>
+            <r>
+              <c>C</c>
+              <c>Office</c>
+              <c>75745</c>
+            </r>
+            <r>
+              <c>C</c>
+              <c>Outdoors</c>
+              <c>21245</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="462" width="288" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Pivot to match target</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="354" y="486" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="103" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="120" />
+          <Fields>
+            <Field name="Product" />
+            <Field name="Category" />
+            <Field name="Suggested Age Range" />
+            <Field name="Average Monthly Sales" />
+            <Field name="Name" />
+            <Field name="Value" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>January</c>
+              <c>191817</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>February</c>
+              <c>434</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>March</c>
+              <c>70654</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>April</c>
+              <c>166571</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>May</c>
+              <c>99066</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>June</c>
+              <c>64423</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>July</c>
+              <c>72846</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>August</c>
+              <c>52744</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>September</c>
+              <c>16150</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>October</c>
+              <c>98130</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>November</c>
+              <c>42312</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>December</c>
+              <c>133095</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>January</c>
+              <c>156628</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>February</c>
+              <c>82183</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>March</c>
+              <c>125043</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>April</c>
+              <c>11205</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>May</c>
+              <c>130896</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>June</c>
+              <c>31214</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>July</c>
+              <c>199932</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>August</c>
+              <c>121453</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>September</c>
+              <c>61049</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>October</c>
+              <c>16068</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>November</c>
+              <c>18098</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>December</c>
+              <c>46061</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>January</c>
+              <c>6299</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>February</c>
+              <c>119153</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>March</c>
+              <c>161717</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>April</c>
+              <c>145195</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>May</c>
+              <c>22305</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>June</c>
+              <c>38385</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>July</c>
+              <c>9183</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>August</c>
+              <c>157398</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>September</c>
+              <c>169316</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>October</c>
+              <c>30902</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>November</c>
+              <c>74336</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>December</c>
+              <c>17180</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>January</c>
+              <c>8313</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>February</c>
+              <c>184270</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>March</c>
+              <c>186021</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>April</c>
+              <c>190255</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>May</c>
+              <c>8211</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>June</c>
+              <c>134736</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>July</c>
+              <c>154287</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>August</c>
+              <c>4735</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>September</c>
+              <c>71620</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>October</c>
+              <c>113519</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>November</c>
+              <c>20765</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>December</c>
+              <c>91844</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>January</c>
+              <c>193667</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>February</c>
+              <c>76441</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>March</c>
+              <c>163244</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>April</c>
+              <c>116158</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>May</c>
+              <c>42346</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>June</c>
+              <c>166919</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>July</c>
+              <c>153584</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>August</c>
+              <c>72374</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>September</c>
+              <c>155810</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>October</c>
+              <c>44161</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>November</c>
+              <c>55709</c>
+            </r>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>December</c>
+              <c>33694</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>January</c>
+              <c>181291</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>February</c>
+              <c>178860</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>March</c>
+              <c>144830</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>April</c>
+              <c>35341</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>May</c>
+              <c>136331</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>June</c>
+              <c>199431</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>July</c>
+              <c>42309</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>August</c>
+              <c>42458</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>September</c>
+              <c>184727</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>October</c>
+              <c>80648</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>November</c>
+              <c>54734</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>December</c>
+              <c>132706</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>January</c>
+              <c>6988</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>February</c>
+              <c>71830</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>March</c>
+              <c>69881</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>April</c>
+              <c>137635</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>May</c>
+              <c>168495</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>June</c>
+              <c>118806</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>July</c>
+              <c>199716</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>August</c>
+              <c>153901</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>September</c>
+              <c>145946</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>October</c>
+              <c>20584</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>November</c>
+              <c>190893</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>December</c>
+              <c>169875</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>January</c>
+              <c>4940</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>February</c>
+              <c>105607</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>March</c>
+              <c>53949</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>April</c>
+              <c>72655</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>May</c>
+              <c>140850</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>June</c>
+              <c>68332</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>July</c>
+              <c>154956</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>August</c>
+              <c>158538</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>September</c>
+              <c>116732</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>October</c>
+              <c>153754</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>November</c>
+              <c>46668</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>December</c>
+              <c>34578</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>January</c>
+              <c>73467</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>February</c>
+              <c>154459</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>March</c>
+              <c>92995</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>April</c>
+              <c>68466</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>May</c>
+              <c>159429</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>June</c>
+              <c>130945</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>July</c>
+              <c>32288</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>August</c>
+              <c>140673</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>September</c>
+              <c>153088</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>October</c>
+              <c>73637</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>November</c>
+              <c>176343</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>December</c>
+              <c>137683</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>January</c>
+              <c>206</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>February</c>
+              <c>324</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>March</c>
+              <c>925</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>April</c>
+              <c>633</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>May</c>
+              <c>487</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>June</c>
+              <c>168</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>July</c>
+              <c>235</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>August</c>
+              <c>154</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>September</c>
+              <c>1432</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>October</c>
+              <c>861</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>November</c>
+              <c>530</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>December</c>
+              <c>1279</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="379" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="Store" />
+            <Field name="Home" />
+            <Field name="Office" />
+            <Field name="Outdoors" />
+          </Fields>
+          <Data>
+            <r>
+              <c>A</c>
+              <c>85334</c>
+              <c>98754</c>
+              <c>14423</c>
+            </r>
+            <r>
+              <c>B</c>
+              <c>34356</c>
+              <c>75445</c>
+              <c>23423</c>
+            </r>
+            <r>
+              <c>C</c>
+              <c>45433</c>
+              <c>75745</c>
+              <c>21245</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="306" width="288" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Pivot to match target</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="354" y="330" width="120" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="103" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="9" />
+          <Fields>
+            <Field name="Store" />
+            <Field name="Name" />
+            <Field name="Value" />
+          </Fields>
+          <Data>
+            <r>
+              <c>A</c>
+              <c>Home</c>
+              <c>85334</c>
+            </r>
+            <r>
+              <c>A</c>
+              <c>Office</c>
+              <c>98754</c>
+            </r>
+            <r>
+              <c>A</c>
+              <c>Outdoors</c>
+              <c>14423</c>
+            </r>
+            <r>
+              <c>B</c>
+              <c>Home</c>
+              <c>34356</c>
+            </r>
+            <r>
+              <c>B</c>
+              <c>Office</c>
+              <c>75445</c>
+            </r>
+            <r>
+              <c>B</c>
+              <c>Outdoors</c>
+              <c>23423</c>
+            </r>
+            <r>
+              <c>C</c>
+              <c>Home</c>
+              <c>45433</c>
+            </r>
+            <r>
+              <c>C</c>
+              <c>Office</c>
+              <c>75745</c>
+            </r>
+            <r>
+              <c>C</c>
+              <c>Outdoors</c>
+              <c>21245</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="379" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="4" />
+          <Fields>
+            <Field name="Store" />
+            <Field name="Sum_Home" />
+            <Field name="Sum_Office" />
+            <Field name="Sum_Outdoors" />
+            <Field name="Total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>A</c>
+              <c>85334</c>
+              <c>98754</c>
+              <c>14423</c>
+              <c>198511</c>
+            </r>
+            <r>
+              <c>B</c>
+              <c>34356</c>
+              <c>75445</c>
+              <c>23423</c>
+              <c>133224</c>
+            </r>
+            <r>
+              <c>C</c>
+              <c>45433</c>
+              <c>75745</c>
+              <c>21245</c>
+              <c>142423</c>
+            </r>
+            <r>
+              <c />
+              <c>165123</c>
+              <c>249944</c>
+              <c>59091</c>
+              <c>474158</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="379" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Product" />
+            <Field name="Category" />
+            <Field name="Suggested Age Range" />
+            <Field name="Average Monthly Sales" />
+            <Field name="April" />
+            <Field name="August" />
+            <Field name="December" />
+            <Field name="February" />
+            <Field name="January" />
+            <Field name="July" />
+            <Field name="June" />
+            <Field name="March" />
+            <Field name="May" />
+            <Field name="November" />
+            <Field name="October" />
+            <Field name="September" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Books about Dinosaurs</c>
+              <c>Fun and Games</c>
+              <c>All ages</c>
+              <c>106175.58</c>
+              <c>116158</c>
+              <c>72374</c>
+              <c>33694</c>
+              <c>76441</c>
+              <c>193667</c>
+              <c>153584</c>
+              <c>166919</c>
+              <c>163244</c>
+              <c>42346</c>
+              <c>55709</c>
+              <c>44161</c>
+              <c>155810</c>
+            </r>
+            <r>
+              <c>Building Blocks</c>
+              <c>Fun and Games</c>
+              <c>3-6</c>
+              <c>97381.33</c>
+              <c>190255</c>
+              <c>4735</c>
+              <c>91844</c>
+              <c>184270</c>
+              <c>8313</c>
+              <c>154287</c>
+              <c>134736</c>
+              <c>186021</c>
+              <c>8211</c>
+              <c>20765</c>
+              <c>113519</c>
+              <c>71620</c>
+            </r>
+            <r>
+              <c>Clothing</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>121212.5</c>
+              <c>137635</c>
+              <c>153901</c>
+              <c>169875</c>
+              <c>71830</c>
+              <c>6988</c>
+              <c>199716</c>
+              <c>118806</c>
+              <c>69881</c>
+              <c>168495</c>
+              <c>190893</c>
+              <c>20584</c>
+              <c>145946</c>
+            </r>
+            <r>
+              <c>Encyclopedias</c>
+              <c>Educational</c>
+              <c>All ages</c>
+              <c>79280.75</c>
+              <c>145195</c>
+              <c>157398</c>
+              <c>17180</c>
+              <c>119153</c>
+              <c>6299</c>
+              <c>9183</c>
+              <c>38385</c>
+              <c>161717</c>
+              <c>22305</c>
+              <c>74336</c>
+              <c>30902</c>
+              <c>169316</c>
+            </r>
+            <r>
+              <c>Frisbee and Frisbee Accessories</c>
+              <c>Fun and Games</c>
+              <c>7+</c>
+              <c>92629.92</c>
+              <c>72655</c>
+              <c>158538</c>
+              <c>34578</c>
+              <c>105607</c>
+              <c>4940</c>
+              <c>154956</c>
+              <c>68332</c>
+              <c>53949</c>
+              <c>140850</c>
+              <c>46668</c>
+              <c>153754</c>
+              <c>116732</c>
+            </r>
+            <r>
+              <c>Graphing Calculators</c>
+              <c>General</c>
+              <c>13+</c>
+              <c>84020.17</c>
+              <c>166571</c>
+              <c>52744</c>
+              <c>133095</c>
+              <c>434</c>
+              <c>191817</c>
+              <c>72846</c>
+              <c>64423</c>
+              <c>70654</c>
+              <c>99066</c>
+              <c>42312</c>
+              <c>98130</c>
+              <c>16150</c>
+            </r>
+            <r>
+              <c>Legumes</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>116122.75</c>
+              <c>68466</c>
+              <c>140673</c>
+              <c>137683</c>
+              <c>154459</c>
+              <c>73467</c>
+              <c>32288</c>
+              <c>130945</c>
+              <c>92995</c>
+              <c>159429</c>
+              <c>176343</c>
+              <c>73637</c>
+              <c>153088</c>
+            </r>
+            <r>
+              <c>Microscopes</c>
+              <c>Educational</c>
+              <c>7+</c>
+              <c>602.83</c>
+              <c>633</c>
+              <c>154</c>
+              <c>1279</c>
+              <c>324</c>
+              <c>206</c>
+              <c>235</c>
+              <c>168</c>
+              <c>925</c>
+              <c>487</c>
+              <c>530</c>
+              <c>861</c>
+              <c>1432</c>
+            </r>
+            <r>
+              <c>Office Supplies</c>
+              <c>General</c>
+              <c>All ages</c>
+              <c>83319.17</c>
+              <c>11205</c>
+              <c>121453</c>
+              <c>46061</c>
+              <c>82183</c>
+              <c>156628</c>
+              <c>199932</c>
+              <c>31214</c>
+              <c>125043</c>
+              <c>130896</c>
+              <c>18098</c>
+              <c>16068</c>
+              <c>61049</c>
+            </r>
+            <r>
+              <c>Viggo Mortenson DVDs</c>
+              <c>Fun and Games</c>
+              <c>13+</c>
+              <c>117805.5</c>
+              <c>35341</c>
+              <c>42458</c>
+              <c>132706</c>
+              <c>178860</c>
+              <c>181291</c>
+              <c>42309</c>
+              <c>199431</c>
+              <c>144830</c>
+              <c>136331</c>
+              <c>54734</c>
+              <c>80648</c>
+              <c>184727</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="379" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="13" />
+          <Fields>
+            <Field name="NAME" />
+            <Field name="ADDRESS" />
+            <Field name="CITY" />
+            <Field name="STATE" />
+            <Field name="ZIP" />
+            <Field name="April" />
+            <Field name="August_" />
+            <Field name="December" />
+            <Field name="February" />
+            <Field name="January" />
+            <Field name="July" />
+            <Field name="June" />
+            <Field name="March" />
+            <Field name="May" />
+            <Field name="November" />
+            <Field name="October" />
+            <Field name="September" />
+          </Fields>
+          <Data>
+            <r>
+              <c>All Creatures Great and Small</c>
+              <c>900 Camel Dr</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82716</c>
+              <c>102000</c>
+              <c>94000</c>
+              <c>118000</c>
+              <c>122000</c>
+              <c>125000</c>
+              <c>120000</c>
+              <c>136000</c>
+              <c>130000</c>
+              <c>98000</c>
+              <c>116000</c>
+              <c>110000</c>
+              <c>156000</c>
+            </r>
+            <r>
+              <c>Animal House</c>
+              <c>123 S 2nd St</c>
+              <c>Douglas</c>
+              <c>WY</c>
+              <c>82633</c>
+              <c>79000</c>
+              <c>89000</c>
+              <c>78000</c>
+              <c>62000</c>
+              <c>75000</c>
+              <c>60000</c>
+              <c>65000</c>
+              <c>68000</c>
+              <c>85000</c>
+              <c>61000</c>
+              <c>62000</c>
+              <c>74000</c>
+            </r>
+            <r>
+              <c>Aquatics and Critters</c>
+              <c>601 SE Wyoming Blvd Unit 252</c>
+              <c>Casper</c>
+              <c>WY</c>
+              <c>82609</c>
+              <c>102000</c>
+              <c>104000</c>
+              <c>103000</c>
+              <c>96500</c>
+              <c>110000</c>
+              <c>101000</c>
+              <c>99000</c>
+              <c>112000</c>
+              <c>98000</c>
+              <c>97000</c>
+              <c>113000</c>
+              <c>115000</c>
+            </r>
+            <r>
+              <c>Barn</c>
+              <c>2625 Big Horn Ave</c>
+              <c>Cody</c>
+              <c>WY</c>
+              <c>82414</c>
+              <c>84000</c>
+              <c>94000</c>
+              <c>77000</c>
+              <c>74000</c>
+              <c>90000</c>
+              <c>87000</c>
+              <c>81000</c>
+              <c>88000</c>
+              <c>77000</c>
+              <c>86000</c>
+              <c>84000</c>
+              <c>89000</c>
+            </r>
+            <r>
+              <c>Fins and Feathers Pet Shoppe</c>
+              <c>512 E Main St</c>
+              <c>Riverton</c>
+              <c>WY</c>
+              <c>82501</c>
+              <c>216000</c>
+              <c>210000</c>
+              <c>219000</c>
+              <c>205000</c>
+              <c>220000</c>
+              <c>204000</c>
+              <c>209000</c>
+              <c>218000</c>
+              <c>200000</c>
+              <c>207000</c>
+              <c>199000</c>
+              <c>221000</c>
+            </r>
+            <r>
+              <c>Mutt Hut</c>
+              <c>509 Fort St # A</c>
+              <c>Buffalo</c>
+              <c>WY</c>
+              <c>82834</c>
+              <c>174000</c>
+              <c>140000</c>
+              <c>180000</c>
+              <c>116000</c>
+              <c>185000</c>
+              <c>170000</c>
+              <c>189000</c>
+              <c>182000</c>
+              <c>176000</c>
+              <c>149000</c>
+              <c>138000</c>
+              <c>135000</c>
+            </r>
+            <r>
+              <c>Pet City</c>
+              <c>1400 Dell Range Blvd</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82009</c>
+              <c>116000</c>
+              <c>114000</c>
+              <c>104000</c>
+              <c>97000</c>
+              <c>110000</c>
+              <c>94000</c>
+              <c>95000</c>
+              <c>112000</c>
+              <c>98000</c>
+              <c>102000</c>
+              <c>110000</c>
+              <c>112000</c>
+            </r>
+            <r>
+              <c>Pet Food Outlet</c>
+              <c>200 E Lakeway Rd</c>
+              <c>Gillette</c>
+              <c>WY</c>
+              <c>82718</c>
+              <c>98000</c>
+              <c>86000</c>
+              <c>87000</c>
+              <c>83000</c>
+              <c>95000</c>
+              <c>84000</c>
+              <c>83000</c>
+              <c>94000</c>
+              <c>100000</c>
+              <c>81000</c>
+              <c>98000</c>
+              <c>94000</c>
+            </r>
+            <r>
+              <c>Petland</c>
+              <c>3769 E Lincolnway</c>
+              <c>Cheyenne</c>
+              <c>WY</c>
+              <c>82001</c>
+              <c>143000</c>
+              <c>149000</c>
+              <c>151000</c>
+              <c>122000</c>
+              <c>150000</c>
+              <c>138000</c>
+              <c>152000</c>
+              <c>148000</c>
+              <c>141000</c>
+              <c>139000</c>
+              <c>146000</c>
+              <c>142500</c>
+            </r>
+            <r>
+              <c>Pets-N-Stuff</c>
+              <c>1842 Sugarland Dr Ste 113</c>
+              <c>Sheridan</c>
+              <c>WY</c>
+              <c>82801</c>
+              <c>128000</c>
+              <c>119000</c>
+              <c>128000</c>
+              <c>100000</c>
+              <c>135000</c>
+              <c>118000</c>
+              <c>126000</c>
+              <c>125000</c>
+              <c>135000</c>
+              <c>134000</c>
+              <c>117000</c>
+              <c>106000</c>
+            </r>
+            <r>
+              <c>Purr-Fect Pets</c>
+              <c>180 S Bent St</c>
+              <c>Powell</c>
+              <c>WY</c>
+              <c>82435</c>
+              <c>124000</c>
+              <c>106000</c>
+              <c>103000</c>
+              <c>102000</c>
+              <c>125000</c>
+              <c>116000</c>
+              <c>112000</c>
+              <c>132000</c>
+              <c>120000</c>
+              <c>124000</c>
+              <c>122000</c>
+              <c>118000</c>
+            </r>
+            <r>
+              <c>Summit Pets</c>
+              <c>932 Main St</c>
+              <c>Evanston</c>
+              <c>WY</c>
+              <c>82930</c>
+              <c>103000</c>
+              <c>119000</c>
+              <c>115000</c>
+              <c>98000</c>
+              <c>115000</c>
+              <c>118000</c>
+              <c>114000</c>
+              <c>100000</c>
+              <c>112000</c>
+              <c>120000</c>
+              <c>98000</c>
+              <c>102000</c>
+            </r>
+            <r>
+              <c>Summit Pets of Rock Springs</c>
+              <c>2706 Commercial Way</c>
+              <c>Rock Springs</c>
+              <c>WY</c>
+              <c>82901</c>
+              <c>97000</c>
+              <c>101000</c>
+              <c>112000</c>
+              <c>92000</c>
+              <c>100000</c>
+              <c>104000</c>
+              <c>115000</c>
+              <c>103000</c>
+              <c>113000</c>
+              <c>102000</c>
+              <c>98000</c>
+              <c>99000</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Cross Tab Tool Examples</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="618" y="42" width="180" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Click the triangle on the right to see the solutions.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="420" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the Cross Tab tool to achieve the target output.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="642" y="90" width="133.0268" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solutions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="667" y="606.9999" width="288" height="144" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Pivot to match target</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="715.0002" y="654.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="156" />
+              <Fields>
+                <Field name="NAME" />
+                <Field name="ADDRESS" />
+                <Field name="CITY" />
+                <Field name="STATE" />
+                <Field name="ZIP" />
+                <Field name="Name2" />
+                <Field name="Value" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>January</c>
+                  <c>125000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>February</c>
+                  <c>122000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>March</c>
+                  <c>130000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>April</c>
+                  <c>102000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>May</c>
+                  <c>98000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>June</c>
+                  <c>136000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>July</c>
+                  <c>120000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>94000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>September</c>
+                  <c>156000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>October</c>
+                  <c>110000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>November</c>
+                  <c>116000</c>
+                </r>
+                <r>
+                  <c>All Creatures Great and Small</c>
+                  <c>900 Camel Dr</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82716</c>
+                  <c>December</c>
+                  <c>118000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>January</c>
+                  <c>75000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>February</c>
+                  <c>62000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>March</c>
+                  <c>68000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>April</c>
+                  <c>79000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>May</c>
+                  <c>85000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>June</c>
+                  <c>65000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>July</c>
+                  <c>60000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>89000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>September</c>
+                  <c>74000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>October</c>
+                  <c>62000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>November</c>
+                  <c>61000</c>
+                </r>
+                <r>
+                  <c>Animal House</c>
+                  <c>123 S 2nd St</c>
+                  <c>Douglas</c>
+                  <c>WY</c>
+                  <c>82633</c>
+                  <c>December</c>
+                  <c>78000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>January</c>
+                  <c>110000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>February</c>
+                  <c>96500</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>March</c>
+                  <c>112000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>April</c>
+                  <c>102000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>May</c>
+                  <c>98000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>June</c>
+                  <c>99000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>July</c>
+                  <c>101000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>104000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>September</c>
+                  <c>115000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>October</c>
+                  <c>113000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>November</c>
+                  <c>97000</c>
+                </r>
+                <r>
+                  <c>Aquatics and Critters</c>
+                  <c>601 SE Wyoming Blvd Unit 252</c>
+                  <c>Casper</c>
+                  <c>WY</c>
+                  <c>82609</c>
+                  <c>December</c>
+                  <c>103000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>January</c>
+                  <c>90000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>February</c>
+                  <c>74000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>March</c>
+                  <c>88000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>April</c>
+                  <c>84000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>May</c>
+                  <c>77000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>June</c>
+                  <c>81000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>July</c>
+                  <c>87000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>94000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>September</c>
+                  <c>89000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>October</c>
+                  <c>84000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>November</c>
+                  <c>86000</c>
+                </r>
+                <r>
+                  <c>Barn</c>
+                  <c>2625 Big Horn Ave</c>
+                  <c>Cody</c>
+                  <c>WY</c>
+                  <c>82414</c>
+                  <c>December</c>
+                  <c>77000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>January</c>
+                  <c>220000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>February</c>
+                  <c>205000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>March</c>
+                  <c>218000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>April</c>
+                  <c>216000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>May</c>
+                  <c>200000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>June</c>
+                  <c>209000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>July</c>
+                  <c>204000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>210000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>September</c>
+                  <c>221000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>October</c>
+                  <c>199000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>November</c>
+                  <c>207000</c>
+                </r>
+                <r>
+                  <c>Fins and Feathers Pet Shoppe</c>
+                  <c>512 E Main St</c>
+                  <c>Riverton</c>
+                  <c>WY</c>
+                  <c>82501</c>
+                  <c>December</c>
+                  <c>219000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>January</c>
+                  <c>185000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>February</c>
+                  <c>116000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>March</c>
+                  <c>182000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>April</c>
+                  <c>174000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>May</c>
+                  <c>176000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>June</c>
+                  <c>189000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>July</c>
+                  <c>170000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>140000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>September</c>
+                  <c>135000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>October</c>
+                  <c>138000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>November</c>
+                  <c>149000</c>
+                </r>
+                <r>
+                  <c>Mutt Hut</c>
+                  <c>509 Fort St # A</c>
+                  <c>Buffalo</c>
+                  <c>WY</c>
+                  <c>82834</c>
+                  <c>December</c>
+                  <c>180000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>January</c>
+                  <c>110000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>February</c>
+                  <c>97000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>March</c>
+                  <c>112000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>April</c>
+                  <c>116000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>May</c>
+                  <c>98000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>June</c>
+                  <c>95000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>July</c>
+                  <c>94000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>114000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>September</c>
+                  <c>112000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>October</c>
+                  <c>110000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>November</c>
+                  <c>102000</c>
+                </r>
+                <r>
+                  <c>Pet City</c>
+                  <c>1400 Dell Range Blvd</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82009</c>
+                  <c>December</c>
+                  <c>104000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>January</c>
+                  <c>95000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>February</c>
+                  <c>83000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>March</c>
+                  <c>94000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>April</c>
+                  <c>98000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>May</c>
+                  <c>100000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>June</c>
+                  <c>83000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>July</c>
+                  <c>84000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>86000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>September</c>
+                  <c>94000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>October</c>
+                  <c>98000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>November</c>
+                  <c>81000</c>
+                </r>
+                <r>
+                  <c>Pet Food Outlet</c>
+                  <c>200 E Lakeway Rd</c>
+                  <c>Gillette</c>
+                  <c>WY</c>
+                  <c>82718</c>
+                  <c>December</c>
+                  <c>87000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>January</c>
+                  <c>150000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>February</c>
+                  <c>122000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>March</c>
+                  <c>148000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>April</c>
+                  <c>143000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>May</c>
+                  <c>141000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>June</c>
+                  <c>152000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>July</c>
+                  <c>138000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>149000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>September</c>
+                  <c>142500</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>October</c>
+                  <c>146000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>November</c>
+                  <c>139000</c>
+                </r>
+                <r>
+                  <c>Petland</c>
+                  <c>3769 E Lincolnway</c>
+                  <c>Cheyenne</c>
+                  <c>WY</c>
+                  <c>82001</c>
+                  <c>December</c>
+                  <c>151000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>January</c>
+                  <c>135000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>February</c>
+                  <c>100000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>March</c>
+                  <c>125000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>April</c>
+                  <c>128000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>May</c>
+                  <c>135000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>June</c>
+                  <c>126000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>July</c>
+                  <c>118000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>119000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>September</c>
+                  <c>106000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>October</c>
+                  <c>117000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>November</c>
+                  <c>134000</c>
+                </r>
+                <r>
+                  <c>Pets-N-Stuff</c>
+                  <c>1842 Sugarland Dr Ste 113</c>
+                  <c>Sheridan</c>
+                  <c>WY</c>
+                  <c>82801</c>
+                  <c>December</c>
+                  <c>128000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>January</c>
+                  <c>125000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>February</c>
+                  <c>102000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>March</c>
+                  <c>132000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>April</c>
+                  <c>124000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>May</c>
+                  <c>120000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>June</c>
+                  <c>112000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>July</c>
+                  <c>116000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>106000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>September</c>
+                  <c>118000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>October</c>
+                  <c>122000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>November</c>
+                  <c>124000</c>
+                </r>
+                <r>
+                  <c>Purr-Fect Pets</c>
+                  <c>180 S Bent St</c>
+                  <c>Powell</c>
+                  <c>WY</c>
+                  <c>82435</c>
+                  <c>December</c>
+                  <c>103000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>January</c>
+                  <c>115000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>February</c>
+                  <c>98000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>March</c>
+                  <c>100000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>April</c>
+                  <c>103000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>May</c>
+                  <c>112000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>June</c>
+                  <c>114000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>July</c>
+                  <c>118000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>119000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>September</c>
+                  <c>102000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>October</c>
+                  <c>98000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>November</c>
+                  <c>120000</c>
+                </r>
+                <r>
+                  <c>Summit Pets</c>
+                  <c>932 Main St</c>
+                  <c>Evanston</c>
+                  <c>WY</c>
+                  <c>82930</c>
+                  <c>December</c>
+                  <c>115000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>January</c>
+                  <c>100000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>February</c>
+                  <c>92000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>March</c>
+                  <c>103000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>April</c>
+                  <c>97000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>May</c>
+                  <c>113000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>June</c>
+                  <c>115000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>July</c>
+                  <c>104000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c><![CDATA[August ]]></c>
+                  <c>101000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>September</c>
+                  <c>99000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>October</c>
+                  <c>98000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>November</c>
+                  <c>102000</c>
+                </r>
+                <r>
+                  <c>Summit Pets of Rock Springs</c>
+                  <c>2706 Commercial Way</c>
+                  <c>Rock Springs</c>
+                  <c>WY</c>
+                  <c>82901</c>
+                  <c>December</c>
+                  <c>112000</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="667.0002" y="139" width="288" height="144" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Pivot to match target</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="715.0002" y="186.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="9" />
+              <Fields>
+                <Field name="Store" />
+                <Field name="Name" />
+                <Field name="Value" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>A</c>
+                  <c>Home</c>
+                  <c>85334</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>Office</c>
+                  <c>98754</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>Outdoors</c>
+                  <c>14423</c>
+                </r>
+                <r>
+                  <c>B</c>
+                  <c>Home</c>
+                  <c>34356</c>
+                </r>
+                <r>
+                  <c>B</c>
+                  <c>Office</c>
+                  <c>75445</c>
+                </r>
+                <r>
+                  <c>B</c>
+                  <c>Outdoors</c>
+                  <c>23423</c>
+                </r>
+                <r>
+                  <c>C</c>
+                  <c>Home</c>
+                  <c>45433</c>
+                </r>
+                <r>
+                  <c>C</c>
+                  <c>Office</c>
+                  <c>75745</c>
+                </r>
+                <r>
+                  <c>C</c>
+                  <c>Outdoors</c>
+                  <c>21245</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="667.0002" y="450.9999" width="288" height="144" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Pivot to match target</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="715.0002" y="498.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="120" />
+              <Fields>
+                <Field name="Product" />
+                <Field name="Category" />
+                <Field name="Suggested Age Range" />
+                <Field name="Average Monthly Sales" />
+                <Field name="Name" />
+                <Field name="Value" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>January</c>
+                  <c>191817</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>February</c>
+                  <c>434</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>March</c>
+                  <c>70654</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>April</c>
+                  <c>166571</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>May</c>
+                  <c>99066</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>June</c>
+                  <c>64423</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>July</c>
+                  <c>72846</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>August</c>
+                  <c>52744</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>September</c>
+                  <c>16150</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>October</c>
+                  <c>98130</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>November</c>
+                  <c>42312</c>
+                </r>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>December</c>
+                  <c>133095</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>January</c>
+                  <c>156628</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>February</c>
+                  <c>82183</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>March</c>
+                  <c>125043</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>April</c>
+                  <c>11205</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>May</c>
+                  <c>130896</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>June</c>
+                  <c>31214</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>July</c>
+                  <c>199932</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>August</c>
+                  <c>121453</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>September</c>
+                  <c>61049</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>October</c>
+                  <c>16068</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>November</c>
+                  <c>18098</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>December</c>
+                  <c>46061</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>January</c>
+                  <c>6299</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>February</c>
+                  <c>119153</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>March</c>
+                  <c>161717</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>April</c>
+                  <c>145195</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>May</c>
+                  <c>22305</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>June</c>
+                  <c>38385</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>July</c>
+                  <c>9183</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>August</c>
+                  <c>157398</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>September</c>
+                  <c>169316</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>October</c>
+                  <c>30902</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>November</c>
+                  <c>74336</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>December</c>
+                  <c>17180</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>January</c>
+                  <c>8313</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>February</c>
+                  <c>184270</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>March</c>
+                  <c>186021</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>April</c>
+                  <c>190255</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>May</c>
+                  <c>8211</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>June</c>
+                  <c>134736</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>July</c>
+                  <c>154287</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>August</c>
+                  <c>4735</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>September</c>
+                  <c>71620</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>October</c>
+                  <c>113519</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>November</c>
+                  <c>20765</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>December</c>
+                  <c>91844</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>January</c>
+                  <c>193667</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>February</c>
+                  <c>76441</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>March</c>
+                  <c>163244</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>April</c>
+                  <c>116158</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>May</c>
+                  <c>42346</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>June</c>
+                  <c>166919</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>July</c>
+                  <c>153584</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>August</c>
+                  <c>72374</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>September</c>
+                  <c>155810</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>October</c>
+                  <c>44161</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>November</c>
+                  <c>55709</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>December</c>
+                  <c>33694</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>January</c>
+                  <c>181291</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>February</c>
+                  <c>178860</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>March</c>
+                  <c>144830</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>April</c>
+                  <c>35341</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>May</c>
+                  <c>136331</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>June</c>
+                  <c>199431</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>July</c>
+                  <c>42309</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>August</c>
+                  <c>42458</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>September</c>
+                  <c>184727</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>October</c>
+                  <c>80648</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>November</c>
+                  <c>54734</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>December</c>
+                  <c>132706</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>January</c>
+                  <c>6988</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>February</c>
+                  <c>71830</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>March</c>
+                  <c>69881</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>April</c>
+                  <c>137635</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>May</c>
+                  <c>168495</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>June</c>
+                  <c>118806</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>July</c>
+                  <c>199716</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>August</c>
+                  <c>153901</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>September</c>
+                  <c>145946</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>October</c>
+                  <c>20584</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>November</c>
+                  <c>190893</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>December</c>
+                  <c>169875</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>January</c>
+                  <c>4940</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>February</c>
+                  <c>105607</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>March</c>
+                  <c>53949</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>April</c>
+                  <c>72655</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>May</c>
+                  <c>140850</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>June</c>
+                  <c>68332</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>July</c>
+                  <c>154956</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>August</c>
+                  <c>158538</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>September</c>
+                  <c>116732</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>October</c>
+                  <c>153754</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>November</c>
+                  <c>46668</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>December</c>
+                  <c>34578</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>January</c>
+                  <c>73467</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>February</c>
+                  <c>154459</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>March</c>
+                  <c>92995</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>April</c>
+                  <c>68466</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>May</c>
+                  <c>159429</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>June</c>
+                  <c>130945</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>July</c>
+                  <c>32288</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>August</c>
+                  <c>140673</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>September</c>
+                  <c>153088</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>October</c>
+                  <c>73637</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>November</c>
+                  <c>176343</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>December</c>
+                  <c>137683</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>January</c>
+                  <c>206</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>February</c>
+                  <c>324</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>March</c>
+                  <c>925</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>April</c>
+                  <c>633</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>May</c>
+                  <c>487</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>June</c>
+                  <c>168</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>July</c>
+                  <c>235</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>August</c>
+                  <c>154</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>September</c>
+                  <c>1432</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>October</c>
+                  <c>861</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>November</c>
+                  <c>530</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>December</c>
+                  <c>1279</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="811.0002" y="186.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Store" />
+              </GroupFields>
+              <HeaderField field="Name" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="1" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="Home" source="CrossTab:Header:Name:Home:Sum:" type="Int64" />
+                <Field name="Office" source="CrossTab:Header:Name:Office:Sum:" type="Int64" />
+                <Field name="Outdoors" source="CrossTab:Header:Name:Outdoors:Sum:" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Store" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="96">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="667.0002" y="294.9999" width="288" height="144" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Pivot to match target</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="98">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="715.0002" y="342.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="9" />
+              <Fields>
+                <Field name="Store" />
+                <Field name="Name" />
+                <Field name="Value" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>A</c>
+                  <c>Home</c>
+                  <c>85334</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>Office</c>
+                  <c>98754</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>Outdoors</c>
+                  <c>14423</c>
+                </r>
+                <r>
+                  <c>B</c>
+                  <c>Home</c>
+                  <c>34356</c>
+                </r>
+                <r>
+                  <c>B</c>
+                  <c>Office</c>
+                  <c>75445</c>
+                </r>
+                <r>
+                  <c>B</c>
+                  <c>Outdoors</c>
+                  <c>23423</c>
+                </r>
+                <r>
+                  <c>C</c>
+                  <c>Home</c>
+                  <c>45433</c>
+                </r>
+                <r>
+                  <c>C</c>
+                  <c>Office</c>
+                  <c>75745</c>
+                </r>
+                <r>
+                  <c>C</c>
+                  <c>Outdoors</c>
+                  <c>21245</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="99">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="811.0002" y="342.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Store" />
+              </GroupFields>
+              <HeaderField field="Name" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="Sum" />
+                <Method method="TotCol" />
+                <Method method="TotRow" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store" size="1" source="CrossTab:Group:Sum:TotCol:" type="String" />
+                <Field name="Sum_Home" source="CrossTab:Header:Name:Home:Sum:" type="Int64" />
+                <Field name="Sum_Office" source="CrossTab:Header:Name:Office:Sum:" type="Int64" />
+                <Field name="Sum_Outdoors" source="CrossTab:Header:Name:Outdoors:Sum:" type="Int64" />
+                <Field name="Total" source="CrossTab:Total:" type="Double" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Store" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="101">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="811.0002" y="498.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Product" />
+                <Field field="Category" />
+                <Field field="Suggested Age Range" />
+                <Field field="Average Monthly Sales" />
+              </GroupFields>
+              <HeaderField field="Name" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Product" size="31" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="Category" size="13" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="Suggested Age Range" size="8" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="Average Monthly Sales" source="CrossTab:Group:Sum:" type="Double" />
+                <Field name="April" source="CrossTab:Header:Name:April:Sum:" type="Int64" />
+                <Field name="August" source="CrossTab:Header:Name:August:Sum:" type="Int64" />
+                <Field name="December" source="CrossTab:Header:Name:December:Sum:" type="Int64" />
+                <Field name="February" source="CrossTab:Header:Name:February:Sum:" type="Int64" />
+                <Field name="January" source="CrossTab:Header:Name:January:Sum:" type="Int64" />
+                <Field name="July" source="CrossTab:Header:Name:July:Sum:" type="Int64" />
+                <Field name="June" source="CrossTab:Header:Name:June:Sum:" type="Int64" />
+                <Field name="March" source="CrossTab:Header:Name:March:Sum:" type="Int64" />
+                <Field name="May" source="CrossTab:Header:Name:May:Sum:" type="Int64" />
+                <Field name="November" source="CrossTab:Header:Name:November:Sum:" type="Int64" />
+                <Field name="October" source="CrossTab:Header:Name:October:Sum:" type="Int64" />
+                <Field name="September" source="CrossTab:Header:Name:September:Sum:" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Product" order="Asc" />
+                <Field field="Category" order="Asc" />
+                <Field field="Suggested Age Range" order="Asc" />
+                <Field field="Average Monthly Sales" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="103">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="811.0003" y="654.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="NAME" />
+                <Field field="ADDRESS" />
+                <Field field="CITY" />
+                <Field field="STATE" />
+                <Field field="ZIP" />
+              </GroupFields>
+              <HeaderField field="Name2" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="NAME" size="29" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="ADDRESS" size="28" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="CITY" size="12" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="STATE" size="2" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="ZIP" source="CrossTab:Group:Sum:" type="Int32" />
+                <Field name="April" source="CrossTab:Header:Name2:April:Sum:" type="Int64" />
+                <Field name="August_" source="CrossTab:Header:Name2:August :Sum:" type="Int64" />
+                <Field name="December" source="CrossTab:Header:Name2:December:Sum:" type="Int64" />
+                <Field name="February" source="CrossTab:Header:Name2:February:Sum:" type="Int64" />
+                <Field name="January" source="CrossTab:Header:Name2:January:Sum:" type="Int64" />
+                <Field name="July" source="CrossTab:Header:Name2:July:Sum:" type="Int64" />
+                <Field name="June" source="CrossTab:Header:Name2:June:Sum:" type="Int64" />
+                <Field name="March" source="CrossTab:Header:Name2:March:Sum:" type="Int64" />
+                <Field name="May" source="CrossTab:Header:Name2:May:Sum:" type="Int64" />
+                <Field name="November" source="CrossTab:Header:Name2:November:Sum:" type="Int64" />
+                <Field name="October" source="CrossTab:Header:Name2:October:Sum:" type="Int64" />
+                <Field name="September" source="CrossTab:Header:Name2:September:Sum:" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="NAME" order="Asc" />
+                <Field field="ADDRESS" order="Asc" />
+                <Field field="CITY" order="Asc" />
+                <Field field="STATE" order="Asc" />
+                <Field field="ZIP" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="786" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="835" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="103" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="Output" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-1" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>crosstab_try_it</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

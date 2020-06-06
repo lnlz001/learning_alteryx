@@ -1,0 +1,2777 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="654" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="150" width="348" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Replace any shorthand words in acct_holder (e.g. '&amp;')  and replace with the full word</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>GLEN &amp; ALLENS HARDWARE CO</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>BROWNSVILLE DEPT OF REVENUE</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>WOLFMAN CO</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>THE WOLFMAN CMPY</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>CANDLEWICK RESEARCH DEPT</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>CO TEXTILE AND VARNISH</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>WOLFMAN CO LLC</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>GLEN AND ALLENS HARDWARE CMPY</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>BUNDICK LUMBER LIQUIDATORS LLC</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>TARLEY MAST BUILDERS INC</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>BROWNSVILLE DEPARTMENT OF REVENUE</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>SMOKIN CHARLIES TRANSPORT CO</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>BROWNSVILLE DEPARTMENT OF TRANSPORTATION</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>COLORADO TEXTILE AND VARNISH</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>COLORADO DEPT OF THE TREASURY</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="word" />
+            <Field name="replacement" />
+          </Fields>
+          <Data>
+            <r>
+              <c>&amp;</c>
+              <c>AND</c>
+            </r>
+            <r>
+              <c>CO</c>
+              <c>COMPANY</c>
+            </r>
+            <r>
+              <c>CMPY</c>
+              <c>COMPANY</c>
+            </r>
+            <r>
+              <c>DEPT</c>
+              <c>DEPARTMENT</c>
+            </r>
+            <r>
+              <c>INC</c>
+              <c>INCORPORATED</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="198" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="366" width="348" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Append a gov't flag to any 'acct_holder' row that contains a 'govt_string'</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>GLEN &amp; ALLENS HARDWARE CO</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>BROWNSVILLE DEPT OF REVENUE</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>WOLFMAN CO</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>THE WOLFMAN CMPY</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>CANDLEWICK RESEARCH DEPT</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>CO TEXTILE AND VARNISH</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>WOLFMAN CO LLC</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>GLEN AND ALLENS HARDWARE CMPY</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>BUNDICK LUMBER LIQUIDATORS LLC</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>TARLEY MAST BUILDERS INC</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>BROWNSVILLE DEPARTMENT OF REVENUE</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>SMOKIN CHARLIES TRANSPORT CO</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>BROWNSVILLE DEPARTMENT OF TRANSPORTATION</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>COLORADO TEXTILE AND VARNISH</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>COLORADO DEPT OF THE TREASURY</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>GLEN AND ALLENS HARDWARE COMPANY</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>BROWNSVILLE DEPARTMENT OF REVENUE</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>WOLFMAN COMPANY</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>THE WOLFMAN COMPANY</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>CANDLEWICK RESEARCH DEPARTMENT</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>COMPANY TEXTILE AND VARNISH</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>WOLFMAN COMPANY LLC</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>GLEN AND ALLENS HARDWARE COMPANY</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>BUNDICK LUMBER LIQUIDATORS LLC</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>TARLEY MAST BUILDERS INCORPORATED</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>BROWNSVILLE DEPARTMENT OF REVENUE</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>SMOKIN CHARLIES TRANSPORT COMPANY</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>BROWNSVILLE DEPARTMENT OF TRANSPORTATION</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>COLORADO TEXTILE AND VARNISH</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>COLORADO DEPARTMENT OF THE TREASURY</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="gov_string" />
+            <Field name="gov_flag" />
+          </Fields>
+          <Data>
+            <r>
+              <c>treasury</c>
+              <c>Y</c>
+            </r>
+            <r>
+              <c>revenue</c>
+              <c>Y</c>
+            </r>
+            <r>
+              <c>of transport</c>
+              <c>Y</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="438" y="426" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="462" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+            <Field name="gov_flag" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>GLEN &amp; ALLENS HARDWARE CO</c>
+              <c>12056</c>
+              <c />
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>BROWNSVILLE DEPT OF REVENUE</c>
+              <c>554</c>
+              <c>Y</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>WOLFMAN CO</c>
+              <c>300</c>
+              <c />
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>THE WOLFMAN CMPY</c>
+              <c>302</c>
+              <c />
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>CANDLEWICK RESEARCH DEPT</c>
+              <c>1810</c>
+              <c />
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>CO TEXTILE AND VARNISH</c>
+              <c>890</c>
+              <c />
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>WOLFMAN CO LLC</c>
+              <c>63</c>
+              <c />
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>GLEN AND ALLENS HARDWARE CMPY</c>
+              <c>8227</c>
+              <c />
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>BUNDICK LUMBER LIQUIDATORS LLC</c>
+              <c>16471</c>
+              <c />
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>TARLEY MAST BUILDERS INC</c>
+              <c>2406</c>
+              <c />
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>BROWNSVILLE DEPARTMENT OF REVENUE</c>
+              <c>648</c>
+              <c>Y</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>SMOKIN CHARLIES TRANSPORT CO</c>
+              <c>4205</c>
+              <c />
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>BROWNSVILLE DEPARTMENT OF TRANSPORTATION</c>
+              <c>21</c>
+              <c>Y</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>COLORADO TEXTILE AND VARNISH</c>
+              <c>192</c>
+              <c />
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>COLORADO DEPT OF THE TREASURY</c>
+              <c>500</c>
+              <c>Y</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="594" width="348" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Replace any shorthand words in acct_holder (e.g. '&amp;')  and replace with the full word</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>glen &amp; allens hardware co</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>brownsville dept of revenue</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>wolfman co</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>the wolfman cmpy</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>candlewick research dept</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>co textile and varnish</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>wolfman co llc</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>glen and allens hardware cmpy</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>bundick lumber liquidators llc</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>tarley mast builders inc</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>brownsville department of revenue</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>smokin charlies transport co</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>brownsville department of transportation</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>colorado textile and varnish</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>colorado dept of the treasury</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="word" />
+            <Field name="replacement" />
+          </Fields>
+          <Data>
+            <r>
+              <c>&amp;</c>
+              <c>AND</c>
+            </r>
+            <r>
+              <c>CO</c>
+              <c>COMPANY</c>
+            </r>
+            <r>
+              <c>CMPY</c>
+              <c>COMPANY</c>
+            </r>
+            <r>
+              <c>DEPT</c>
+              <c>DEPARTMENT</c>
+            </r>
+            <r>
+              <c>INC</c>
+              <c>INCORPORATED</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="462" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>glen AND allens hardware COMPANY</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>brownsville DEPARTMENT of revenue</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>wolfman COMPANY</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>the wolfman COMPANY</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>candlewick research DEPARTMENT</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>COMPANY textile and varnish</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>wolfman COMPANY llc</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>glen and allens hardware COMPANY</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>bundick lumber liquidators llc</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>tarley mast builders INCORPORATED</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>brownsville department of revenue</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>smokin charlies transport COMPANY</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>brownsville department of transportation</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>colorado textile and varnish</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>colorado DEPARTMENT of the treasury</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="894" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="834" width="348" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Replace any shorthand words in acct_holder (e.g. '&amp;')  and replace with the full word only when they exist at the beginning of the field</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="870" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>glen &amp; allens hardware co</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>brownsville dept of revenue</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>wolfman co</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>the wolfman cmpy</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>candlewick research dept</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>co textile and varnish</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>wolfman co llc</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>glen and allens hardware cmpy</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>bundick lumber liquidators llc</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>tarley mast builders inc</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>brownsville department of revenue</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>smokin charlies transport co</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>brownsville department of transportation</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>colorado textile and varnish</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>colorado dept of the treasury</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="966" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="word" />
+            <Field name="replacement" />
+          </Fields>
+          <Data>
+            <r>
+              <c>&amp;</c>
+              <c>AND</c>
+            </r>
+            <r>
+              <c>CO</c>
+              <c>COMPANY</c>
+            </r>
+            <r>
+              <c>CMPY</c>
+              <c>COMPANY</c>
+            </r>
+            <r>
+              <c>DEPT</c>
+              <c>DEPARTMENT</c>
+            </r>
+            <r>
+              <c>INC</c>
+              <c>INCORPORATED</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>glen &amp; allens hardware co</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>brownsville dept of revenue</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>wolfman co</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>the wolfman cmpy</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>candlewick research dept</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>COMPANY textile and varnish</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>wolfman co llc</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>glen and allens hardware cmpy</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>bundick lumber liquidators llc</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>tarley mast builders inc</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>brownsville department of revenue</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>smokin charlies transport co</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>brownsville department of transportation</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>colorado textile and varnish</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>colorado dept of the treasury</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="1110" width="108" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="1050" width="348" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Replace any shorthand words in acct_holder (e.g. '&amp;')  and replace with the full word at any part of the field and within any word!</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="1086" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>glen &amp; allens hardware co</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>brownsville dept of revenue</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>wolfman co</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>the wolfman cmpy</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>candlewick research dept</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>co textile and varnish</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>wolfman co llc</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>glen and allens hardware cmpy</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>bundick lumber liquidators llc</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>tarley mast builders inc</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>brownsville department of revenue</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>smokin charlies transport co</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>brownsville department of transportation</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>colorado textile and varnish</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>colorado dept of the treasury</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="1182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="word" />
+            <Field name="replacement" />
+          </Fields>
+          <Data>
+            <r>
+              <c>&amp;</c>
+              <c>AND</c>
+            </r>
+            <r>
+              <c>CO</c>
+              <c>COMPANY</c>
+            </r>
+            <r>
+              <c>CMPY</c>
+              <c>COMPANY</c>
+            </r>
+            <r>
+              <c>DEPT</c>
+              <c>DEPARTMENT</c>
+            </r>
+            <r>
+              <c>INC</c>
+              <c>INCORPORATED</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="474" y="1122" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="15" />
+          <Fields>
+            <Field name="transaction_id" />
+            <Field name="trans_dt" />
+            <Field name="acct_holder" />
+            <Field name="amt" />
+          </Fields>
+          <Data>
+            <r>
+              <c>205160</c>
+              <c>2015-03-10</c>
+              <c>glen AND allens hardware COMPANY</c>
+              <c>12056</c>
+            </r>
+            <r>
+              <c>205161</c>
+              <c>2015-03-10</c>
+              <c>brownsville DEPARTMENT of revenue</c>
+              <c>554</c>
+            </r>
+            <r>
+              <c>205162</c>
+              <c>2015-03-10</c>
+              <c>wolfman COMPANY</c>
+              <c>300</c>
+            </r>
+            <r>
+              <c>205163</c>
+              <c>2015-03-11</c>
+              <c>the wolfman COMPANY</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c>205164</c>
+              <c>2015-03-11</c>
+              <c>candlewick research DEPARTMENT</c>
+              <c>1810</c>
+            </r>
+            <r>
+              <c>205165</c>
+              <c>2015-03-12</c>
+              <c>COMPANY textile and varnish</c>
+              <c>890</c>
+            </r>
+            <r>
+              <c>205166</c>
+              <c>2015-03-12</c>
+              <c>wolfman COMPANY llc</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>205167</c>
+              <c>2015-03-12</c>
+              <c>glen and allens hardware COMPANY</c>
+              <c>8227</c>
+            </r>
+            <r>
+              <c>205168</c>
+              <c>2015-03-12</c>
+              <c>bundick lumber liquidators llc</c>
+              <c>16471</c>
+            </r>
+            <r>
+              <c>205169</c>
+              <c>2015-03-13</c>
+              <c>tarley mast builders INCORPORATED</c>
+              <c>2406</c>
+            </r>
+            <r>
+              <c>205170</c>
+              <c>2015-03-14</c>
+              <c>brownsville department of revenue</c>
+              <c>648</c>
+            </r>
+            <r>
+              <c>205171</c>
+              <c>2015-03-14</c>
+              <c>smokin charlies transport COMPANY</c>
+              <c>4205</c>
+            </r>
+            <r>
+              <c>205172</c>
+              <c>2015-03-15</c>
+              <c>brownsville department of transportation</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>205173</c>
+              <c>2015-03-15</c>
+              <c>COMPANYlorado textile and varnish</c>
+              <c>192</c>
+            </r>
+            <r>
+              <c>205174</c>
+              <c>2015-03-16</c>
+              <c>COMPANYlorado DEPARTMENT of the treasury</c>
+              <c>500</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="594" y="1110" width="108" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Observe the output data from this find/replace and why it might be considered to be poorly executed.</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="66" width="324" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Find Replace Tool Examples</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="666" y="54" width="180" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Click the triangle on the right to see the solutions.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="102" width="348" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the Find Replace tool to achieve the target output.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="690" y="102" width="133.0268" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solutions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="715" y="151" width="348" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Replace any shorthand words in acct_holder (e.g. '&amp;')  and replace with the full word</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="739" y="187.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="transaction_id" />
+                <Field name="trans_dt" />
+                <Field name="acct_holder" />
+                <Field name="amt" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>2015-03-10</c>
+                  <c>GLEN &amp; ALLENS HARDWARE CO</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>2015-03-10</c>
+                  <c>BROWNSVILLE DEPT OF REVENUE</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>2015-03-10</c>
+                  <c>WOLFMAN CO</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>2015-03-11</c>
+                  <c>THE WOLFMAN CMPY</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>2015-03-11</c>
+                  <c>CANDLEWICK RESEARCH DEPT</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>2015-03-12</c>
+                  <c>CO TEXTILE AND VARNISH</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>2015-03-12</c>
+                  <c>WOLFMAN CO LLC</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>2015-03-12</c>
+                  <c>GLEN AND ALLENS HARDWARE CMPY</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>2015-03-12</c>
+                  <c>BUNDICK LUMBER LIQUIDATORS LLC</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>2015-03-13</c>
+                  <c>TARLEY MAST BUILDERS INC</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>2015-03-14</c>
+                  <c>BROWNSVILLE DEPARTMENT OF REVENUE</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>2015-03-14</c>
+                  <c>SMOKIN CHARLIES TRANSPORT CO</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>2015-03-15</c>
+                  <c>BROWNSVILLE DEPARTMENT OF TRANSPORTATION</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>2015-03-15</c>
+                  <c>COLORADO TEXTILE AND VARNISH</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>2015-03-16</c>
+                  <c>COLORADO DEPT OF THE TREASURY</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="739" y="271.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="word" />
+                <Field name="replacement" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>&amp;</c>
+                  <c>AND</c>
+                </r>
+                <r>
+                  <c>CO</c>
+                  <c>COMPANY</c>
+                </r>
+                <r>
+                  <c>CMPY</c>
+                  <c>COMPANY</c>
+                </r>
+                <r>
+                  <c>DEPT</c>
+                  <c>DEPARTMENT</c>
+                </r>
+                <r>
+                  <c>INC</c>
+                  <c>INCORPORATED</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="955" y="199.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>acct_holder</FieldFind>
+              <FieldSearch>word</FieldSearch>
+              <ReplaceFoundField>replacement</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="False" />
+              <MatchWholeWord value="True" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="715" y="367.0002" width="348" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Append a gov't flag to any 'acct_holder' row that contains a 'govt_string'</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="739" y="403.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="transaction_id" />
+                <Field name="trans_dt" />
+                <Field name="acct_holder" />
+                <Field name="amt" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>2015-03-10</c>
+                  <c>GLEN &amp; ALLENS HARDWARE CO</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>2015-03-10</c>
+                  <c>BROWNSVILLE DEPT OF REVENUE</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>2015-03-10</c>
+                  <c>WOLFMAN CO</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>2015-03-11</c>
+                  <c>THE WOLFMAN CMPY</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>2015-03-11</c>
+                  <c>CANDLEWICK RESEARCH DEPT</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>2015-03-12</c>
+                  <c>CO TEXTILE AND VARNISH</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>2015-03-12</c>
+                  <c>WOLFMAN CO LLC</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>2015-03-12</c>
+                  <c>GLEN AND ALLENS HARDWARE CMPY</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>2015-03-12</c>
+                  <c>BUNDICK LUMBER LIQUIDATORS LLC</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>2015-03-13</c>
+                  <c>TARLEY MAST BUILDERS INC</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>2015-03-14</c>
+                  <c>BROWNSVILLE DEPARTMENT OF REVENUE</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>2015-03-14</c>
+                  <c>SMOKIN CHARLIES TRANSPORT CO</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>2015-03-15</c>
+                  <c>BROWNSVILLE DEPARTMENT OF TRANSPORTATION</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>2015-03-15</c>
+                  <c>COLORADO TEXTILE AND VARNISH</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>2015-03-16</c>
+                  <c>COLORADO DEPT OF THE TREASURY</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="739" y="487.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="3" />
+              <Fields>
+                <Field name="gov_string" />
+                <Field name="gov_flag" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>treasury</c>
+                  <c>Y</c>
+                </r>
+                <r>
+                  <c>revenue</c>
+                  <c>Y</c>
+                </r>
+                <r>
+                  <c>of transport</c>
+                  <c>Y</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="931" y="439.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>acct_holder</FieldFind>
+              <FieldSearch>gov_string</FieldSearch>
+              <ReplaceFoundField>gov_flag</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Append</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields>
+                <Field field="gov_flag" />
+              </ReplaceAppendFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="715" y="595.0002" width="348" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Replace any shorthand words in acct_holder (e.g. '&amp;')  and replace with the full word</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="931.0001" y="667.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>acct_holder</FieldFind>
+              <FieldSearch>word</FieldSearch>
+              <ReplaceFoundField>replacement</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="True" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="739" y="631.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="transaction_id" />
+                <Field name="trans_dt" />
+                <Field name="acct_holder" />
+                <Field name="amt" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>2015-03-10</c>
+                  <c>glen &amp; allens hardware co</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>2015-03-10</c>
+                  <c>brownsville dept of revenue</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>2015-03-10</c>
+                  <c>wolfman co</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>2015-03-11</c>
+                  <c>the wolfman cmpy</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>2015-03-11</c>
+                  <c>candlewick research dept</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>2015-03-12</c>
+                  <c>co textile and varnish</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>2015-03-12</c>
+                  <c>wolfman co llc</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>2015-03-12</c>
+                  <c>glen and allens hardware cmpy</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>2015-03-12</c>
+                  <c>bundick lumber liquidators llc</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>2015-03-13</c>
+                  <c>tarley mast builders inc</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>2015-03-14</c>
+                  <c>brownsville department of revenue</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>2015-03-14</c>
+                  <c>smokin charlies transport co</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>2015-03-15</c>
+                  <c>brownsville department of transportation</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>2015-03-15</c>
+                  <c>colorado textile and varnish</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>2015-03-16</c>
+                  <c>colorado dept of the treasury</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="739" y="727.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="word" />
+                <Field name="replacement" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>&amp;</c>
+                  <c>AND</c>
+                </r>
+                <r>
+                  <c>CO</c>
+                  <c>COMPANY</c>
+                </r>
+                <r>
+                  <c>CMPY</c>
+                  <c>COMPANY</c>
+                </r>
+                <r>
+                  <c>DEPT</c>
+                  <c>DEPARTMENT</c>
+                </r>
+                <r>
+                  <c>INC</c>
+                  <c>INCORPORATED</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="727" y="835.0002" width="348" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Replace any shorthand words in acct_holder (e.g. '&amp;')  and replace with the full word only when they exist at the beginning of the field</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="943.0002" y="907.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>acct_holder</FieldFind>
+              <FieldSearch>word</FieldSearch>
+              <ReplaceFoundField>replacement</ReplaceFoundField>
+              <FindMode>FindBegin</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="True" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="751.0001" y="871.0004" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="transaction_id" />
+                <Field name="trans_dt" />
+                <Field name="acct_holder" />
+                <Field name="amt" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>2015-03-10</c>
+                  <c>glen &amp; allens hardware co</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>2015-03-10</c>
+                  <c>brownsville dept of revenue</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>2015-03-10</c>
+                  <c>wolfman co</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>2015-03-11</c>
+                  <c>the wolfman cmpy</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>2015-03-11</c>
+                  <c>candlewick research dept</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>2015-03-12</c>
+                  <c>co textile and varnish</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>2015-03-12</c>
+                  <c>wolfman co llc</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>2015-03-12</c>
+                  <c>glen and allens hardware cmpy</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>2015-03-12</c>
+                  <c>bundick lumber liquidators llc</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>2015-03-13</c>
+                  <c>tarley mast builders inc</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>2015-03-14</c>
+                  <c>brownsville department of revenue</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>2015-03-14</c>
+                  <c>smokin charlies transport co</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>2015-03-15</c>
+                  <c>brownsville department of transportation</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>2015-03-15</c>
+                  <c>colorado textile and varnish</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>2015-03-16</c>
+                  <c>colorado dept of the treasury</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="750.9999" y="967.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="word" />
+                <Field name="replacement" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>&amp;</c>
+                  <c>AND</c>
+                </r>
+                <r>
+                  <c>CO</c>
+                  <c>COMPANY</c>
+                </r>
+                <r>
+                  <c>CMPY</c>
+                  <c>COMPANY</c>
+                </r>
+                <r>
+                  <c>DEPT</c>
+                  <c>DEPARTMENT</c>
+                </r>
+                <r>
+                  <c>INC</c>
+                  <c>INCORPORATED</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="727" y="1051" width="348" height="204" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Replace any shorthand words in acct_holder (e.g. '&amp;')  and replace with the full word at any part of the field and within any word!</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FindReplace.FindReplace">
+            <Position x="942.9998" y="1123" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldFind>acct_holder</FieldFind>
+              <FieldSearch>word</FieldSearch>
+              <ReplaceFoundField>replacement</ReplaceFoundField>
+              <FindMode>FindAny</FindMode>
+              <NoCase value="True" />
+              <MatchWholeWord value="False" />
+              <ReplaceMode>Replace</ReplaceMode>
+              <ReplaceMultipleFound value="True" />
+              <ReplaceAppendFields />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFindReplace" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="750.9999" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="15" />
+              <Fields>
+                <Field name="transaction_id" />
+                <Field name="trans_dt" />
+                <Field name="acct_holder" />
+                <Field name="amt" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>205160</c>
+                  <c>2015-03-10</c>
+                  <c>glen &amp; allens hardware co</c>
+                  <c>12056</c>
+                </r>
+                <r>
+                  <c>205161</c>
+                  <c>2015-03-10</c>
+                  <c>brownsville dept of revenue</c>
+                  <c>554</c>
+                </r>
+                <r>
+                  <c>205162</c>
+                  <c>2015-03-10</c>
+                  <c>wolfman co</c>
+                  <c>300</c>
+                </r>
+                <r>
+                  <c>205163</c>
+                  <c>2015-03-11</c>
+                  <c>the wolfman cmpy</c>
+                  <c>302</c>
+                </r>
+                <r>
+                  <c>205164</c>
+                  <c>2015-03-11</c>
+                  <c>candlewick research dept</c>
+                  <c>1810</c>
+                </r>
+                <r>
+                  <c>205165</c>
+                  <c>2015-03-12</c>
+                  <c>co textile and varnish</c>
+                  <c>890</c>
+                </r>
+                <r>
+                  <c>205166</c>
+                  <c>2015-03-12</c>
+                  <c>wolfman co llc</c>
+                  <c>63</c>
+                </r>
+                <r>
+                  <c>205167</c>
+                  <c>2015-03-12</c>
+                  <c>glen and allens hardware cmpy</c>
+                  <c>8227</c>
+                </r>
+                <r>
+                  <c>205168</c>
+                  <c>2015-03-12</c>
+                  <c>bundick lumber liquidators llc</c>
+                  <c>16471</c>
+                </r>
+                <r>
+                  <c>205169</c>
+                  <c>2015-03-13</c>
+                  <c>tarley mast builders inc</c>
+                  <c>2406</c>
+                </r>
+                <r>
+                  <c>205170</c>
+                  <c>2015-03-14</c>
+                  <c>brownsville department of revenue</c>
+                  <c>648</c>
+                </r>
+                <r>
+                  <c>205171</c>
+                  <c>2015-03-14</c>
+                  <c>smokin charlies transport co</c>
+                  <c>4205</c>
+                </r>
+                <r>
+                  <c>205172</c>
+                  <c>2015-03-15</c>
+                  <c>brownsville department of transportation</c>
+                  <c>21</c>
+                </r>
+                <r>
+                  <c>205173</c>
+                  <c>2015-03-15</c>
+                  <c>colorado textile and varnish</c>
+                  <c>192</c>
+                </r>
+                <r>
+                  <c>205174</c>
+                  <c>2015-03-16</c>
+                  <c>colorado dept of the treasury</c>
+                  <c>500</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="751.0001" y="1183" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="word" />
+                <Field name="replacement" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>&amp;</c>
+                  <c>AND</c>
+                </r>
+                <r>
+                  <c>CO</c>
+                  <c>COMPANY</c>
+                </r>
+                <r>
+                  <c>CMPY</c>
+                  <c>COMPANY</c>
+                </r>
+                <r>
+                  <c>DEPT</c>
+                  <c>DEPARTMENT</c>
+                </r>
+                <r>
+                  <c>INC</c>
+                  <c>INCORPORATED</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1290" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="1339" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="50" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="54" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="56" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="56" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="60" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="60" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="64" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="64" Connection="Source" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-1" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>findreplace_try_it</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

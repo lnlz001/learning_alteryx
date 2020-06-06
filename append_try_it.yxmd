@@ -1,0 +1,6328 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="474" y="810" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="474" y="486" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="138" width="348" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Append Sum_Sales to each segment</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="474" y="186" width="108" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Segment" />
+            <Field name="Sales" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Home</c>
+              <c>936322.13</c>
+            </r>
+            <r>
+              <c>Office</c>
+              <c>215900.12</c>
+            </r>
+            <r>
+              <c>Outdoors</c>
+              <c>550308.76</c>
+            </r>
+            <r>
+              <c>Grocery</c>
+              <c>1334031.10</c>
+            </r>
+            <r>
+              <c>Sporting Good</c>
+              <c>233022.56</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Sum_Sales" />
+          </Fields>
+          <Data>
+            <r>
+              <c>3269584.67</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="498" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="5" />
+          <Fields>
+            <Field name="Segment" />
+            <Field name="Sales" />
+            <Field name="Sum_Sales" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Home</c>
+              <c>936322.13</c>
+              <c>3269584.67</c>
+            </r>
+            <r>
+              <c>Office</c>
+              <c>215900.12</c>
+              <c>3269584.67</c>
+            </r>
+            <r>
+              <c>Outdoors</c>
+              <c>550308.76</c>
+              <c>3269584.67</c>
+            </r>
+            <r>
+              <c>Grocery</c>
+              <c>1334031.1</c>
+              <c>3269584.67</c>
+            </r>
+            <r>
+              <c>Sporting Good</c>
+              <c>233022.56</c>
+              <c>3269584.67</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="390" width="348" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create a combination of each article of clothing, color, and size</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Pants</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+            </r>
+            <r>
+              <c>Socks</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+            </r>
+            <r>
+              <c>Hat</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="7" />
+          <Fields>
+            <Field name="Size" />
+          </Fields>
+          <Data>
+            <r>
+              <c>XXL</c>
+            </r>
+            <r>
+              <c>XL</c>
+            </r>
+            <r>
+              <c>L</c>
+            </r>
+            <r>
+              <c>M</c>
+            </r>
+            <r>
+              <c>S</c>
+            </r>
+            <r>
+              <c>XS</c>
+            </r>
+            <r>
+              <c>XXS</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="7" />
+          <Fields>
+            <Field name="Color" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Black</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="498" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="294" />
+          <Fields>
+            <Field name="Type" />
+            <Field name="Size" />
+            <Field name="Color" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="726" width="348" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create a combination of each article of clothing, color, and size (again but with more data!)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Type" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Pants</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+            </r>
+            <r>
+              <c>Socks</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+            </r>
+            <r>
+              <c>Hat</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="870" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="7" />
+          <Fields>
+            <Field name="Size" />
+          </Fields>
+          <Data>
+            <r>
+              <c>XXL</c>
+            </r>
+            <r>
+              <c>XL</c>
+            </r>
+            <r>
+              <c>L</c>
+            </r>
+            <r>
+              <c>M</c>
+            </r>
+            <r>
+              <c>S</c>
+            </r>
+            <r>
+              <c>XS</c>
+            </r>
+            <r>
+              <c>XXS</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="954" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="17" />
+          <Fields>
+            <Field name="Color" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Sour Razz</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="498" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="714" />
+          <Fields>
+            <Field name="Type" />
+            <Field name="Size" />
+            <Field name="Color" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>L</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>M</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>S</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Pants</c>
+              <c>XXS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>L</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>M</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>S</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Shirts</c>
+              <c>XXS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>L</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>M</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>S</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Socks</c>
+              <c>XXS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>L</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>M</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>S</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Underwear</c>
+              <c>XXS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>L</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>M</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>S</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Swim suit</c>
+              <c>XXS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XL</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>L</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>M</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>S</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XS</c>
+              <c>Sour Razz</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Red</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Orange</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Yellow</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Green</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Purple</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Black</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Sea Foam</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Agua</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Cerulean</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Magenta</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Teal</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Navy Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Royal Blue</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Hot Sauce</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Deep Space</c>
+            </r>
+            <r>
+              <c>Hat</c>
+              <c>XXS</c>
+              <c>Sour Razz</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Append Fields Tool Examples</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="690" y="42" width="180" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Click the triangle on the right to see the solutions.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="348" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the Append Fields tool to achieve the target output.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="714" y="89.99997" width="133.0268" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solutions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="750.9999" y="139" width="348" height="228" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Append Sum_Sales to each segment</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="786.9999" y="199.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="Segment" />
+                <Field name="Sales" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Home</c>
+                  <c>936322.13</c>
+                </r>
+                <r>
+                  <c>Office</c>
+                  <c>215900.12</c>
+                </r>
+                <r>
+                  <c>Outdoors</c>
+                  <c>550308.76</c>
+                </r>
+                <r>
+                  <c>Grocery</c>
+                  <c>1334031.10</c>
+                </r>
+                <r>
+                  <c>Sporting Good</c>
+                  <c>233022.56</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="786.9999" y="283.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="Sum_Sales" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>3269584.67</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="918.9999" y="235.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="750.9997" y="391.0001" width="348" height="300" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Create a combination of each article of clothing, color, and size</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="786.9999" y="451.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Type" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Pants</c>
+                </r>
+                <r>
+                  <c>Shirts</c>
+                </r>
+                <r>
+                  <c>Socks</c>
+                </r>
+                <r>
+                  <c>Underwear</c>
+                </r>
+                <r>
+                  <c>Swim suit</c>
+                </r>
+                <r>
+                  <c>Hat</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="786.9999" y="535.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="7" />
+              <Fields>
+                <Field name="Size" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>XXL</c>
+                </r>
+                <r>
+                  <c>XL</c>
+                </r>
+                <r>
+                  <c>L</c>
+                </r>
+                <r>
+                  <c>M</c>
+                </r>
+                <r>
+                  <c>S</c>
+                </r>
+                <r>
+                  <c>XS</c>
+                </r>
+                <r>
+                  <c>XXS</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="918.9999" y="523.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="786.9999" y="619.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="7" />
+              <Fields>
+                <Field name="Color" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Red</c>
+                </r>
+                <r>
+                  <c>Orange</c>
+                </r>
+                <r>
+                  <c>Yellow</c>
+                </r>
+                <r>
+                  <c>Green</c>
+                </r>
+                <r>
+                  <c>Blue</c>
+                </r>
+                <r>
+                  <c>Purple</c>
+                </r>
+                <r>
+                  <c>Black</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1003" y="607.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="739" y="727.0001" width="348" height="300" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Create a combination of each article of clothing, color, and size (again but with more data!)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="775.0001" y="787.0002" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="Type" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Pants</c>
+                </r>
+                <r>
+                  <c>Shirts</c>
+                </r>
+                <r>
+                  <c>Socks</c>
+                </r>
+                <r>
+                  <c>Underwear</c>
+                </r>
+                <r>
+                  <c>Swim suit</c>
+                </r>
+                <r>
+                  <c>Hat</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="774.9999" y="871.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="7" />
+              <Fields>
+                <Field name="Size" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>XXL</c>
+                </r>
+                <r>
+                  <c>XL</c>
+                </r>
+                <r>
+                  <c>L</c>
+                </r>
+                <r>
+                  <c>M</c>
+                </r>
+                <r>
+                  <c>S</c>
+                </r>
+                <r>
+                  <c>XS</c>
+                </r>
+                <r>
+                  <c>XXS</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="906.9998" y="859.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Error</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="774.9999" y="955.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="17" />
+              <Fields>
+                <Field name="Color" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Red</c>
+                </r>
+                <r>
+                  <c>Orange</c>
+                </r>
+                <r>
+                  <c>Yellow</c>
+                </r>
+                <r>
+                  <c>Green</c>
+                </r>
+                <r>
+                  <c>Blue</c>
+                </r>
+                <r>
+                  <c>Purple</c>
+                </r>
+                <r>
+                  <c>Black</c>
+                </r>
+                <r>
+                  <c>Sea Foam</c>
+                </r>
+                <r>
+                  <c>Agua</c>
+                </r>
+                <r>
+                  <c>Cerulean</c>
+                </r>
+                <r>
+                  <c>Magenta</c>
+                </r>
+                <r>
+                  <c>Teal</c>
+                </r>
+                <r>
+                  <c>Navy Blue</c>
+                </r>
+                <r>
+                  <c>Royal Blue</c>
+                </r>
+                <r>
+                  <c>Hot Sauce</c>
+                </r>
+                <r>
+                  <c>Deep Space</c>
+                </r>
+                <r>
+                  <c>Sour Razz</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="990.9999" y="943.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="1074" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="1123" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="42" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="42" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="44" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="48" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="50" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Source" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-1" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>append_try_it</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
